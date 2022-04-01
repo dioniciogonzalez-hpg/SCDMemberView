@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Supplier Disruption Impact Assessment</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link crossorgin="anonymous" href="https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css" rel="stylesheet">
+    <link crossorgin="anonymous" rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script crossorgin="anonymous" type="text/javascript"
+        src="https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js"></script>
+    <script type="text/javascript" src="./lib/source.js"></script>
+    <script type="text/javascript">
+        function htmlWrapFormatter(cell, formatterParams, onRendered){
+            cell.getElement().style.whiteSpace = "pre-wrap";
+            return this.emptyToSpace(cell.getValue());
+        }
+    </script>
+</head>
+
+<body oncontextmenu="return false;">
+    <div>
+        <div>
+            <div>
+                <a href="https://healthtrustpg.com/"><img
+                        src="https://healthtrustpg.com/wp-content/themes/healthtrustpg/images/HealthTrust_Logo_horiz.svg"
+                        alt="HealthTrust Performance Improvement For Healthcare"
+                        style="height:36px;padding-bottom:10px;"></a>
+                <span
+                    style="font-family: Verdana; font-size: x-large; vertical-align: top; padding-left: 100px; padding-top: 30px; color: #1B365D;">Supply
+                    Chain Disruption: </span><span
+                    style="font-family: Verdana; font-size: x-large; vertical-align: top; padding-left: 5px; padding-top: 30px; color: #DE6924">Impact
+                    Assessment</span>
+            </div>
+        </div>
+    </div>
+    <div id="issue-tracker-table"></div>
+    <script type="application/javascript">
+        var issuesList = json_data;
+
+        var tableIssueTracker = new Tabulator("#issue-tracker-table", {
+            data: issuesList,
+            height: 600,
+            width: 800,
+            layout: "fitDataStretch",
+            responsiveLayout: "collapse",
+            initialSort: [
+                { column: "DateReported", dir: "desc" },
+            ],
+            columns: [
+                {
+                    title: "Priority", field: "Priority", hozAlign: "center", width: 70, headerFilter: "input", formatter: function (cell, formatterParams) {
+                        var value = cell.getValue();
+                        if (value == "Critical") {
+                            return "<i class='fa-xl fa-solid fa-truck-medical' style='color:#cc3333;position:relative;top:5px;' title='Critical'></i>";
+                        } else if (value == "High") {
+                            return "<i class='fa-xl fa-solid fa-truck-medical' style='color:#ff8c00;position:relative;top:5px;' title='High'></i>";
+                        } else if (value == "Medium") {
+                            return "<i class='fa-xl fa-solid fa-truck-medical' style='color:#eed202;position:relative;top:5px;' title='Medium'></i>";
+                        } else if (value == "Low") {
+                            return "<i class='fa-xl fa-solid fa-truck-medical' style='color:#138808;position:relative;top:5px;' title='Low'></i>";
+                        } else if (value == "Watch") {
+                            return "<i class='fa-xl fa-solid fa-truck-medical' style='color:#4682b4;position:relative;top:5px;' title='Watch'></i>";
+                        } else if (value == "Retire/Resolved") {
+                            return "<i class='fa-xl fa-solid fa-truck-medical' style='color:#a9a9a9;position:relative;top:5px;' title='Retire'></i>";
+                        } else {
+                            return "";
+                        }
+                    }
+                },
+                { title: "Modified", field: "DateReported", hozAlign: "left", width: 75 },
+                { title: "Category", field: "Category", hozAlign: "left", formatter: htmlWrapFormatter, width: 130, headerFilter: "input" },
+                { title: "Contract", field: "Contract_x0020_No", hozAlign: "left", formatter: htmlWrapFormatter, width: 70 },
+                { title: "Product Impacted", field: "Product_x0020_Impacted", hozAlign: "left", formatter: htmlWrapFormatter, width: 150 },
+                { title: "Communication", field: "Communication_x0020_Link", hozAlign: "left", formatter: htmlWrapFormatter, width: 150 },
+                { title: "Issue Details", field: "Description", hozAlign: "left", formatter: htmlWrapFormatter, width: 150 },
+                { title: "Issue Type", field: "Issue_x0020_Type", hozAlign: "left", formatter: htmlWrapFormatter, width: 170, headerFilter: "input" },
+                { title: "Sourcing Option", field: "Sourcing_x0020_Option", hozAlign: "left", formatter: htmlWrapFormatter, width: 150, headerFilter: "input" },
+                { title: "Resources", field: "Resources", hozAlign: "left", formatter: htmlWrapFormatter, width: 150 },
+                { title: "Cross Reference", field: "Cross_x0020_Reference_x0020_Prod", hozAlign: "left", formatter: htmlWrapFormatter, width: 150 }
+            ],
+            footerElement: "<div style=\"white-space:pre-wrap;\"><b>Note:</b> This resource is for informational purposes only and is not intended to replace individual clinical decision-making, which is the sole and independent responsibility of the practitioner and institution. Product information is vetted and updated as it is received by suppliers to promote knowledge sharing within our membership. HealthTrust expressly disclaims any liability for treatment decisions.<br /><br />Please direct any questions or comments to <a href=\"mailto: clinical.services@healthtrustpg.com\">clinical.services@healthtrustpg.com</a>, your account manager, or your supplier representative. <br /><br />If you would like to submit an issue or an update to an issue, please feel free to submit it via the <a href=\"https://huddle.healthtrustpg.com/page/new-welcome\" target=\"_blank\">HealthTrust Huddle Community</a>.<br /><br />	&copy; 2022 HealthTrust. All Rights Reserved.</div>"
+        });
+
+        tableIssueTracker.setFilter("Priority", "!=", "Retire/Resolved"),
+
+        tableIssueTracker.on("dataProcessed", function (e, row) {
+            var firstRow = tableIssueTracker.getRows()[-1];
+
+            if (firstRow) {
+                firstRow.freeze();
+            }
+        });
+    </script>
+    <style type="text/css">
+        #issue-tracker-table {
+            background-color: #1B365D !important;
+            border: 1px solid #333 !important;
+            border-radius: 3px !important;
+            font-family: Verdana !important;
+            font-size: smaller !important;
+        }
+
+        #issue-tracker-table .tabulator-header {
+            background: #1B365D !important;
+            background-color: #1B365D !important;
+            color: #fff !important;
+            border-bottom: 6px solid #DE6924 !important;
+        }
+
+        #issue-tracker-table .tabulator-header .tabulator-col {
+            background: #1B365D !important;
+            background-color: #1B365D !important;
+            color: #fff !important;
+        }
+
+        #issue-tracker-table .tabulator-footer {
+            background: #fff !important;
+            background-color: #fff !important;
+            border-top: 6px solid #DE6924 !important;
+            color: #1B365D !important;
+            width: 100% !important;
+            font-size: small !important;
+            font-weight: normal !important;
+        }
+
+        #issue-tracker-table .div .tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-title {
+            white-space: pre-wrap !important;
+        }
+    </style>
+
+</body>
+
+</html>

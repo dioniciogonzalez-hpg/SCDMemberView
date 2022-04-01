@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/41bce502-c07d-4bcf-9119-2cbd29d375e6/resourceGroups/sourcing-supplier-Prod-ui/providers/Microsoft.Web/sites/supplierdisruption",
+    "appService.deploySubpath": "Publish"
+}
