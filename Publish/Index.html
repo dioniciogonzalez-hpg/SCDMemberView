@@ -7,17 +7,33 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
     <link crossorgin="anonymous" href="https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css" rel="stylesheet">
-    <link crossorgin="anonymous" rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <script crossorgin="anonymous" type="text/javascript"
-        src="https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js"></script>
+    <link crossorgin="anonymous" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script crossorgin="anonymous" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js"></script>
+    <script type="text/javascript" src="./lib/xlsx.full.min.js"></script>
     <script type="text/javascript" src="./lib/source.js"></script>
+    <script type="text/javascript" src="./lib/source_plain.js"></script>
+    <script crossorgin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script crossorgin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.20/jspdf.plugin.autotable.min.js"></script>
     <script type="text/javascript">
         function htmlWrapFormatter(cell, formatterParams, onRendered){
             cell.getElement().style.whiteSpace = "pre-wrap";
             return this.emptyToSpace(cell.getValue());
         }
     </script>
+    <style>
+        button {
+            padding: 5px 10px;
+            border: 1px solid #25682a;
+            background: #3FB449;
+            background: -webkit-gradient(linear, left top, left bottom, from(#3FB449), to(#25682a));
+            background: linear-gradient(to bottom, #3FB449 0%, #25682a 100%);
+            color: #fff;
+            font-weight: bold;
+            -webkit-transition: color .3s, background .3s, opacity, .3s;
+            transition: color .3s, background .3s, opacity, .3s;
+          }
+    </style>
 </head>
 
 <body oncontextmenu="return false;">
@@ -35,15 +51,23 @@
                     Assessment</span>
             </div>
         </div>
+        <div class="table-controls">
+            <button id="download-table-xlsx-plain">Download</button>
+            <spacer style="width: 10px;"></spacer>
+            <button id="download-table-pdf">Print</button>            
+        </div>
     </div>
+    <p></p>
     <div id="issue-tracker-table"></div>
+    <div id="issue-tracker-table-plain" style="height: 0px;"></div>
+    
     <script type="application/javascript">
         var issuesList = json_data;
+        var issuesList_Plain = json_data_plain;
 
         var tableIssueTracker = new Tabulator("#issue-tracker-table", {
             data: issuesList,
-            height: 600,
-            width: 800,
+            height: "600px",
             layout: "fitDataStretch",
             responsiveLayout: "collapse",
             initialSort: [
@@ -51,47 +75,110 @@
             ],
             columns: [
                 {
-                    title: "Priority", field: "Priority", hozAlign: "center", width: 70, headerFilter: "input", formatter: function (cell, formatterParams) {
+                    title: "Priority", field: "Priority", hozAlign: "center", width: 110, headerFilter: "input", formatter: function (cell, formatterParams) {
                         var value = cell.getValue();
                         if (value == "Critical") {
-                            return "<i class='fa-xl fa-solid fa-truck-medical' style='color:#cc3333;position:relative;top:5px;' title='Critical'></i>";
+                            return "<div><i class='fa-xl fa-solid fa-truck-medical' style='color:#cc3333;position:relative;top:5px;' title='Critical'></i></div><div style='padding-top:10px;font-weight:bold;font-size:x-small;'>Critical</div>";
                         } else if (value == "High") {
-                            return "<i class='fa-xl fa-solid fa-truck-medical' style='color:#ff8c00;position:relative;top:5px;' title='High'></i>";
+                            return "<i class='fa-xl fa-solid fa-truck-medical' style='color:#ff8c00;position:relative;top:5px;' title='High'></i></div><div style='padding-top:10px;font-weight:bold;font-size:x-small;'>High</div>";
                         } else if (value == "Medium") {
-                            return "<i class='fa-xl fa-solid fa-truck-medical' style='color:#eed202;position:relative;top:5px;' title='Medium'></i>";
+                            return "<i class='fa-xl fa-solid fa-truck-medical' style='color:#eed202;position:relative;top:5px;' title='Medium'></i></div><div style='padding-top:10px;font-weight:bold;font-size:x-small;'>Medium</div>";
                         } else if (value == "Low") {
-                            return "<i class='fa-xl fa-solid fa-truck-medical' style='color:#138808;position:relative;top:5px;' title='Low'></i>";
+                            return "<i class='fa-xl fa-solid fa-truck-medical' style='color:#138808;position:relative;top:5px;' title='Low'></i></div><div style='padding-top:10px;font-weight:bold;font-size:x-small;'>Low</div>";
                         } else if (value == "Watch") {
-                            return "<i class='fa-xl fa-solid fa-truck-medical' style='color:#4682b4;position:relative;top:5px;' title='Watch'></i>";
+                            return "<i class='fa-xl fa-solid fa-truck-medical' style='color:#4682b4;position:relative;top:5px;' title='Watch'></i></div><div style='padding-top:10px;font-weight:bold;font-size:x-small;'>Watch</div>";
                         } else if (value == "Retire/Resolved") {
-                            return "<i class='fa-xl fa-solid fa-truck-medical' style='color:#a9a9a9;position:relative;top:5px;' title='Retire'></i>";
+                            return "<i class='fa-xl fa-solid fa-truck-medical' style='color:#a9a9a9;position:relative;top:5px;' title='Retire'></i></div><div style='padding-top:10px;font-weight:bold;font-size:x-small;'>Retired/Resolved</div>";
                         } else {
                             return "";
                         }
                     }
                 },
-                { title: "Modified", field: "DateReported", hozAlign: "left", width: 75 },
+                { title: "Modified", field: "DateReported", hozAlign: "left", width: 100, headerFilter: "input" },
                 { title: "Category", field: "Category", hozAlign: "left", formatter: htmlWrapFormatter, width: 130, headerFilter: "input" },
-                { title: "Contract", field: "Contract_x0020_No", hozAlign: "left", formatter: htmlWrapFormatter, width: 70 },
-                { title: "Product Impacted", field: "Product_x0020_Impacted", hozAlign: "left", formatter: htmlWrapFormatter, width: 150 },
+                { title: "Contract", field: "Contract_x0020_No", hozAlign: "left", formatter: htmlWrapFormatter, width: 70, headerFilter: "input" },
+                { title: "Product Impacted", field: "Product_x0020_Impacted", hozAlign: "left", formatter: htmlWrapFormatter, width: 150, headerFilter: "input" },
                 { title: "Communication", field: "Communication_x0020_Link", hozAlign: "left", formatter: htmlWrapFormatter, width: 150 },
                 { title: "Issue Details", field: "Description", hozAlign: "left", formatter: htmlWrapFormatter, width: 150 },
                 { title: "Issue Type", field: "Issue_x0020_Type", hozAlign: "left", formatter: htmlWrapFormatter, width: 170, headerFilter: "input" },
                 { title: "Sourcing Option", field: "Sourcing_x0020_Option", hozAlign: "left", formatter: htmlWrapFormatter, width: 150, headerFilter: "input" },
-                { title: "Resources", field: "Resources", hozAlign: "left", formatter: htmlWrapFormatter, width: 150 },
+                { title: "Resources", field: "Resources", hozAlign: "left", formatter: htmlWrapFormatter, width: 150, headerFilter: "input" },
                 { title: "Cross Reference", field: "Cross_x0020_Reference_x0020_Prod", hozAlign: "left", formatter: htmlWrapFormatter, width: 150 }
             ],
             footerElement: "<div style=\"white-space:pre-wrap;\"><b>Note:</b> This resource is for informational purposes only and is not intended to replace individual clinical decision-making, which is the sole and independent responsibility of the practitioner and institution. Product information is vetted and updated as it is received by suppliers to promote knowledge sharing within our membership. HealthTrust expressly disclaims any liability for treatment decisions.<br /><br />Please direct any questions or comments to <a href=\"mailto: clinical.services@healthtrustpg.com\">clinical.services@healthtrustpg.com</a>, your account manager, or your supplier representative. <br /><br />If you would like to submit an issue or an update to an issue, please feel free to submit it via the <a href=\"https://huddle.healthtrustpg.com/page/new-welcome\" target=\"_blank\">HealthTrust Huddle Community</a>.<br /><br />	&copy; 2022 HealthTrust. All Rights Reserved.</div>"
         });
 
-        tableIssueTracker.setFilter("Priority", "!=", "Retire/Resolved"),
-
-        tableIssueTracker.on("dataProcessed", function (e, row) {
+        tableIssueTracker.on("dataProcessed", function () {
             var firstRow = tableIssueTracker.getRows()[-1];
 
             if (firstRow) {
                 firstRow.freeze();
             }
+        });
+
+        var tableIssueTracker_Plain = new Tabulator("#issue-tracker-table-plain", {
+            data: issuesList_Plain,
+            height: "0px",
+            layout: "fitDataStretch",
+            responsiveLayout: "collapse",
+            initialSort: [
+                { column: "DateReported", dir: "desc" },
+            ],
+            columns: [
+                { title: "PRI", field: "Priority", hozAlign: "left", width: 40 },
+                { title: "Modified", field: "DateReported", hozAlign: "left", width: 50 },
+                { title: "Category", field: "Category", hozAlign: "left", width: 60 },
+                { title: "Contract", field: "Contract_x0020_No", hozAlign: "left", width: 45 },
+                { title: "Product Impacted", field: "Product_x0020_Impacted", hozAlign: "left", width: 90 },
+                { title: "Communication", field: "Communication_x0020_Link", hozAlign: "left", width: 90 },
+                { title: "Issue Details", field: "Description", hozAlign: "left", width: 90 },
+                { title: "Issue Type", field: "Issue_x0020_Type", hozAlign: "left", width: 90 },
+                { title: "Sourcing Option", field: "Sourcing_x0020_Option", hozAlign: "left", width: 90 },
+                { title: "Resources", field: "Resources", hozAlign: "left", width: 75 },
+                { title: "Cross Reference", field: "Cross_x0020_Reference_x0020_Prod", hozAlign: "left", width: 75 }
+            ]
+        });
+
+        const d = new Date();
+        var xlsxDownloadName = "HealthTrust_SCIA_" + d.getFullYear() + "" + ("0" + (d.getMonth() + 1)).slice(-2) + "" + ("0" + (d.getDate() + 1)).slice(-2) + ".xlsx";
+        var pdfDownloadName = "HealthTrust_SCIA_" + d.getFullYear() + "" + ("0" + (d.getMonth() + 1)).slice(-2) + "" + ("0" + (d.getDate() + 1)).slice(-2) + ".pdf";
+
+        document.getElementById("download-table-xlsx-plain").addEventListener("click", function(){
+            tableIssueTracker_Plain.download("xlsx", xlsxDownloadName, {sheetName:"HTSCIA"});
+        });
+
+        document.getElementById("download-table-pdf").addEventListener("click", function(){
+            tableIssueTracker_Plain.download("pdf", pdfDownloadName, {
+                orientation:"landscape", 
+                title:"HealthTrust Supply Chain Distribution: Impact Assessment", 
+                autoTable:{
+                    theme: "striped",
+                    headStyles: {
+                        fontSize: 8,
+                        halign: "center",
+                        textColor: 000
+                    },
+                    margin: {top: 40, bottom: 40, left: 7, right: 7},
+                    styles: {
+                        fillColor: [255, 255, 255],
+                        overflow: 'linebreak', 
+                        cellWidth: 'wrap'
+                    },
+                    columnStyles: {
+                        0: {cellWidth: 40},
+                        1: {cellWidth: 50},
+                        2: {cellWidth: 60},
+                        3: {cellWidth: 45},
+                        4: {cellWidth: 90},
+                        5: {cellWidth: 90},
+                        6: {cellWidth: 90},
+                        7: {cellWidth: 90},
+                        8: {cellWidth: 90},
+                        9: {cellWidth: 90},
+                        10: {cellWidth: 90}
+                    }
+                }
+            });
         });
     </script>
     <style type="text/css">
@@ -130,7 +217,6 @@
             white-space: pre-wrap !important;
         }
     </style>
-
 </body>
 
 </html>
