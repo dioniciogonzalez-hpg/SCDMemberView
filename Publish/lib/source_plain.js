@@ -39,7 +39,7 @@ var json_data_plain = [
         "Cross_x0020_Reference_x0020_Prod":  "Drapes - Specialty and Surgical"
     },
     {
-        "Priority":  "Watch",
+        "Priority":  "Retire/Resolved",
         "DateReported":  "11/19/2021",
         "Category":  "Baby Skin Care Supplies",
         "Contract_x0020_No":  "7347",
@@ -79,12 +79,12 @@ var json_data_plain = [
     },
     {
         "Priority":  "Low",
-        "DateReported":  "12/17/2021",
+        "DateReported":  "4/29/2022",
         "Category":  "Bandages - Elastic Self-Adherent (Coban)",
         "Contract_x0020_No":  "1264",
-        "Product_x0020_Impacted":  "3M Coban NL Non-Latex Self-Adherent Wraps, 3M Coban Self-Adherent Wraps (Latex Containing)",
-        "Communication_x0020_Link":  "3M Letter",
-        "Description":  "3M is experiencing intermittent supply issues for 3M Coban NL Non-Latex Self-Adherent Wraps, 3M Coban Self-Adherent Wraps (Latex Containing)and these products will be on backorder through end of Q3, 2022. 3M recommends transitioning future and existing orders from current to the recommended products.",
+        "Product_x0020_Impacted":  "3M Coban NL Non-Latex Self-Adherent Wraps, 3M Coban Self-Adherent Wraps (Latex Containing)UPDATE 4/29 3M discontinuing some Coban products by 7/15/22 - please refer to letter for list and suggested alternatives.",
+        "Communication_x0020_Link":  "UPDATE 4/29 3M Product Discontinuation Letter3M Letter",
+        "Description":  "UPDATE 4/29: 3M is discontinuing the Coban products listed in the letter provided. Additional information, including the target discontinuation date for each product and suggested alternatives, where applicable, has been provided. 3M previously suspended production of these products temporarily, and they have made the decision to not resume manufacturing\n3M is experiencing intermittent supply issues for 3M Coban NL Non-Latex Self-Adherent Wraps, 3M Coban Self-Adherent Wraps (Latex Containing)and these products will be on backorder through end of Q3, 2022. 3M recommends transitioning future and existing orders from current to the recommended products.",
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges, Shipping Delays",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier",
         "Resources":  "",
@@ -169,7 +169,7 @@ var json_data_plain = [
         "Cross_x0020_Reference_x0020_Prod":  "No cross posted"
     },
     {
-        "Priority":  "Medium",
+        "Priority":  "High",
         "DateReported":  "3/23/2022",
         "Category":  "Contrast Media - Radiographic",
         "Contract_x0020_No":  "299",
@@ -196,14 +196,14 @@ var json_data_plain = [
     },
     {
         "Priority":  "Critical",
-        "DateReported":  "1/25/2022",
+        "DateReported":  "4/29/2022",
         "Category":  "Drains - Chest and Autotransfusion Bags",
         "Contract_x0020_No":  "228",
-        "Product_x0020_Impacted":  "Ocean, Express, Pneumostat, and Express Mini 500 codes",
-        "Communication_x0020_Link":  "Getinge Letter",
-        "Description":  "Getinge experiencing backorders due to a global supply shortage for raw materials and components used in the manufacturing of the Atrium chest drains. Getinge has stopped fulfilling Distributor orders in anticipation of \ntaking orders directly from its mutual end-user customers. This action has been employed in an effort to more efficiently manage the allocation process and expedite shipping these orders. Getinge is requesting that facilities place orders for full case quantities only, directly with Getinge and not their distributor.",
+        "Product_x0020_Impacted":  "Ocean, Express, Pneumostat, and Express Mini 500 codesUPDATE 4/29  Products being discontinuedProducts scheduled for discontinuation include all Ocean chest drain products, Oasis 3620-100 Dual chest drain, and Oasis 3650-100 Blood Recovery Unit (BRU) chest drain",
+        "Communication_x0020_Link":  "UPDATED LETTER 4/29 Product Discontinuation Getinge Letter",
+        "Description":  "UPDATE: 4/29: Discontinuing specific chest drain product codes:  products scheduled for discontinuation include all Ocean chest drain products, Oasis 3620-100 Dual chest drain, and Oasis 3650-100 Blood Recovery Unit (BRU) chest drain.\n\nGetinge experiencing backorders due to a global supply shortage for raw materials and components used in the manufacturing of the Atrium chest drains. Getinge has stopped fulfilling Distributor orders in anticipation of \ntaking orders directly from its mutual end-user customers. This action has been employed in an effort to more efficiently manage the allocation process and expedite shipping these orders. Getinge is requesting that facilities place orders for full case quantities only, directly with Getinge and not their distributor.",
         "Issue_x0020_Type":  "Raw Material Shortage, Component Disruption",
-        "Sourcing_x0020_Option":  "Purchase Direct, Non-Contracted Alternatives",
+        "Sourcing_x0020_Option":  "Purchase Direct, Non-Contracted Alternatives, Clinical Alternatives",
         "Resources":  "Award SummaryClinical Resource - Clinical Practice Alternatives",
         "Cross_x0020_Reference_x0020_Prod":  "Drains - Chest and Autotransfusion Bags"
     },
@@ -247,7 +247,7 @@ var json_data_plain = [
         "Cross_x0020_Reference_x0020_Prod":  "Endoscope and Instrument Care - Cleaning Transport and Related Supplies"
     },
     {
-        "Priority":  "Medium",
+        "Priority":  "Retire/Resolved",
         "DateReported":  "11/19/2021",
         "Category":  "ENT Equipment and Supplies",
         "Contract_x0020_No":  "388",
@@ -260,7 +260,7 @@ var json_data_plain = [
         "Cross_x0020_Reference_x0020_Prod":  "ENT Equipment and Supplies"
     },
     {
-        "Priority":  "Low",
+        "Priority":  "Retire/Resolved",
         "DateReported":  "2/23/2022",
         "Category":  "Enteral Feeding Pumps",
         "Contract_x0020_No":  "1565",
@@ -273,7 +273,7 @@ var json_data_plain = [
         "Cross_x0020_Reference_x0020_Prod":  "Enteral Feeding Pumps, Sets, Feeding Tubes and Related Supplies"
     },
     {
-        "Priority":  "Medium",
+        "Priority":  "Retire/Resolved",
         "DateReported":  "3/23/2022",
         "Category":  "Enteral Feeding Tubes",
         "Contract_x0020_No":  "406266666667666923238",
@@ -286,7 +286,7 @@ var json_data_plain = [
         "Cross_x0020_Reference_x0020_Prod":  "Neonatal - Enteral Feeding Tubes and Accessories"
     },
     {
-        "Priority":  "Low",
+        "Priority":  "Retire/Resolved",
         "DateReported":  "10/26/2021",
         "Category":  "Equipment Drapes, Surgical",
         "Contract_x0020_No":  "52985",
@@ -443,19 +443,19 @@ var json_data_plain = [
     },
     {
         "Priority":  "High",
-        "DateReported":  "2/8/2022",
+        "DateReported":  "4/29/2022",
         "Category":  "Infusion Pumps Sets Solutions and Needleless Products",
         "Contract_x0020_No":  "44256",
         "Product_x0020_Impacted":  "Various items in Pharmacy portfolio",
-        "Communication_x0020_Link":  "Baxter Letter",
-        "Description":  "Baxter has implemented a protective allocation on certain product in their pharmacy portfolio. The 100% allocation level is based on historical ordering (July 2021  December 2021) of each item group. Please refer to the attached letter for more details.",
+        "Communication_x0020_Link":  "UPDATE 4/29 Baxter Letter",
+        "Description":  "UPDATE 4/29:\nBaxter has updated the protective allocation on certain product in their pharmacy portfolio. Please refer to the linked letter for more details.",
         "Issue_x0020_Type":  "Labor Shortages, Shipping Delays, Raw Material Shortage, Demand Fluctuations",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Purchase Allocation",
         "Resources":  "",
         "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products"
     },
     {
-        "Priority":  "High",
+        "Priority":  "Retire/Resolved",
         "DateReported":  "1/18/2022",
         "Category":  "Infusion Pumps Sets Solutions and Needleless Products",
         "Contract_x0020_No":  "44256",
@@ -911,14 +911,14 @@ var json_data_plain = [
     },
     {
         "Priority":  "Low",
-        "DateReported":  "1/28/2022",
+        "DateReported":  "4/29/2022",
         "Category":  "Patient Temperature Management - Convective Warming",
         "Contract_x0020_No":  "735",
-        "Product_x0020_Impacted":  "3M Bair Hugger Warming unit, catalog number 77500, and the 3M Bair Hugger Warming Unit, catalog number 67500.",
-        "Communication_x0020_Link":  "3M Letter",
-        "Description":  "Due to global raw material supply constraints, 3M (#735) is experiencing a backorder of the 3M Bair Hugger Warming unit, catalog number 77500, and the 3M Bair Hugger Warming Unit, catalog number 67500.",
+        "Product_x0020_Impacted":  "UPDATE 4/29 Impacted SKUs of 3M Bair Hugger Warming unit have expanded - refer to latest letter.",
+        "Communication_x0020_Link":  "UPDATE 4/29 3M Letter",
+        "Description":  "Due to global raw material supply constraints, 3M Bair Hugger Warming Unit is on backorder.",
         "Issue_x0020_Type":  "Raw Material Shortage",
-        "Sourcing_x0020_Option":  "Clinical Alternatives",
+        "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier, Clinical Alternatives",
         "Resources":  "Award SummaryClinical Resource - Patient Temperature Clinical EvidenceClinical Resource - Patient Temperature PFS",
         "Cross_x0020_Reference_x0020_Prod":  "Patient Temperature Management - Convective Warming"
     },
@@ -1040,7 +1040,7 @@ var json_data_plain = [
         "Cross_x0020_Reference_x0020_Prod":  "Respiratory Heaters and Accessories"
     },
     {
-        "Priority":  "Medium",
+        "Priority":  "Retire/Resolved",
         "DateReported":  "1/13/2022",
         "Category":  "Respiratory, Oxygen Delivery Devices",
         "Contract_x0020_No":  "75863",
@@ -1184,25 +1184,25 @@ var json_data_plain = [
     },
     {
         "Priority":  "Medium",
-        "DateReported":  "1/28/2022",
+        "DateReported":  "4/29/2022",
         "Category":  "Surgical Skin Prep- Iodine Alcohol",
         "Contract_x0020_No":  "3256",
-        "Product_x0020_Impacted":  "DuraPrep Surgical Prepping Solution 8630, 26 mL                                                                                                 DuraPrep Surgical Prepping Solution 8635m 6 mL",
+        "Product_x0020_Impacted":  "DuraPrep Surgical Prepping Solution 8635m 6 mLUPDATE 4/29DuraPrep Surgical Prepping Solution 8630, 26 mL, is no longer on backorder, but could go back into backorder if demand continues to be high due to competitor backorder. ",
         "Communication_x0020_Link":  "No official letter communicated. Information received via supplier.",
-        "Description":  "DuraPrep Surgical Prepping Solutions 8630 and 8635 or temporarily on backorder and is expected to be resolved late Fall 2021. No suggested alternative.",
-        "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
+        "Description":  "UPDATE 4/29: \nDuraPrep Surgical Prepping Solution 8635 is temporarily on backorder and is expected to be resolved late Q4 2022. No suggested alternative offered by supplier.\n\nDuraPrep Surgical Prepping Solution 8630 is off of backorder status, but due to competitor backorder issues, may go back into backorder status if demand continues to remain high.",
+        "Issue_x0020_Type":  "Not Specified - Global Supply Challenges, Demand Fluctuations",
         "Sourcing_x0020_Option":  "Clinical Alternatives",
         "Resources":  "Award SummaryClinical Resource - PFS",
         "Cross_x0020_Reference_x0020_Prod":  "No cross posted"
     },
     {
         "Priority":  "Low",
-        "DateReported":  "1/28/2022",
+        "DateReported":  "4/29/2022",
         "Category":  "Tape - Surgical and Specialty Bandages",
         "Contract_x0020_No":  "3117",
         "Product_x0020_Impacted":  "3M Micropore Surgical Tape",
         "Communication_x0020_Link":  "3M Letter",
-        "Description":  "3M is experiencing intermittent supply issues for 3M Coban NL Non-Latex Self-Adherent Wraps, 3M Coban Self-Adherent Wraps (Latex Containing), and 3M Micropore Surgical Tape and these products will be on intermittent backorder through end of  Q1 2022",
+        "Description":  "3M is experiencing intermittent supply issues for 3M Coban NL Non-Latex Self-Adherent Wraps, 3M Coban Self-Adherent Wraps (Latex Containing), and 3M Micropore Surgical Tape and these products will be on intermittent backorder through Q1 2023",
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges, Shipping Delays",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier",
         "Resources":  "Award Summary",
@@ -1223,12 +1223,12 @@ var json_data_plain = [
     },
     {
         "Priority":  "Medium",
-        "DateReported":  "1/28/2022",
+        "DateReported":  "4/29/2022",
         "Category":  "Transparent Adhesive Dressing",
         "Contract_x0020_No":  "827",
-        "Product_x0020_Impacted":  "1620 and 1621 Tegaderm Dressing Products",
-        "Communication_x0020_Link":  "3M Letter",
-        "Description":  "3M is experiencing a service interruption for all 1620 and 1621 3M Tegaderm Transparent Dressing products with an estimated recovery date of end of February.",
+        "Product_x0020_Impacted":  "UPDATE 4/29Product Catalog Numbers Being Discontinued1620 - discontinue date immediate1621 - discontinue date immediate1634 - discontinue date 6/30/20229505W - discontinue date 6/30/20229506W - discontinue date 6/30/2022",
+        "Communication_x0020_Link":  "UPDATE 4/29 3M Letter",
+        "Description":  "UPDATE 4/29: \n3M is discontinuing some transparent film dressings. They have provided suggested alternatives in their most recent letter.",
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier",
         "Resources":  "Award Summary",
@@ -1261,7 +1261,7 @@ var json_data_plain = [
         "Cross_x0020_Reference_x0020_Prod":  "Underpads and Adult Briefs (Disposable)"
     },
     {
-        "Priority":  "Watch",
+        "Priority":  "Retire/Resolved",
         "DateReported":  "11/5/2021",
         "Category":  "Vascular Closure Devices",
         "Contract_x0020_No":  "22296",
@@ -1535,12 +1535,12 @@ var json_data_plain = [
     },
     {
         "Priority":  "High",
-        "DateReported":  "2/18/2022",
+        "DateReported":  "4/29/2022",
         "Category":  "Blood/Fluid Warming Equipment and Supplies",
         "Contract_x0020_No":  "65558",
-        "Product_x0020_Impacted":  "14500 3M Ranger Pressure Infusor                                                                                              24500 3M Ranger Blood/Fluid Warming Unit",
-        "Communication_x0020_Link":  "Communicating in the 2-22-22 Response",
-        "Description":  "Due to component supply challenges 3M is having supply constraints on catalog number 14500, 3M Ranger pressure infusor.  3M is also experiencing a backorder of the 3M Ranger Blood/Fluid warming units catalog number 24500, 3M Ranger Blood/Fluid Warming unit.  ",
+        "Product_x0020_Impacted":  "14500 3M Ranger Pressure Infusor 24500 3M Ranger Blood/Fluid Warming UnitUPDATE 4/29 3M receiving intermittent supply of 24500 and fulfilling orders when they have stock. ",
+        "Communication_x0020_Link":  "3M Letter",
+        "Description":  "UPDATE 4/29: 3M receiving intermittent supply of 24500 and fulfilling orders when they have stock. \n\nDue to component supply challenges 3M is having supply constraints on catalog number 14500, 3M Ranger pressure infusor.  3M is also experiencing a backorder of the 3M Ranger Blood/Fluid warming units catalog number 24500, 3M Ranger Blood/Fluid Warming unit.  ",
         "Issue_x0020_Type":  "Component Disruption",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Non-Contracted Alternatives",
         "Resources":  "Award SummaryClinical Alternatives - Blood and Fluid WarmingClinical Resource - Blood and Fluid Warming PFSClinical Resource - Patient Temperature Management PFSClinical Resource - Patient Temperature Management Evidence",
@@ -1664,7 +1664,7 @@ var json_data_plain = [
         "Cross_x0020_Reference_x0020_Prod":  "Suction Tubing  Tips (Yankauers - Frazier - Poole)"
     },
     {
-        "Priority":  "Medium",
+        "Priority":  "Retire/Resolved",
         "DateReported":  "3/1/2022",
         "Category":  "Enteral Feeding Tubes",
         "Contract_x0020_No":  "2884",
@@ -1781,7 +1781,7 @@ var json_data_plain = [
         "Cross_x0020_Reference_x0020_Prod":  "Kits - Suction and Trach Care and Related Supplies"
     },
     {
-        "Priority":  "Not Selected",
+        "Priority":  "Medium",
         "DateReported":  "4/6/2022",
         "Category":  "Respiratory, Ventilator Circuit Products",
         "Contract_x0020_No":  "75861",
@@ -1831,6 +1831,32 @@ var json_data_plain = [
         "Sourcing_x0020_Option":  "Contracted Alternatives, Alternatives Recommended by Supplier",
         "Resources":  "Award Summary",
         "Cross_x0020_Reference_x0020_Prod":  "Perfusion Supplies"
+    },
+    {
+        "Priority":  "Medium",
+        "DateReported":  "4/27/2022",
+        "Category":  "Infusion Pumps Sets Solutions and Needleless Products",
+        "Contract_x0020_No":  "44256",
+        "Product_x0020_Impacted":  "ExactaMix valve set",
+        "Communication_x0020_Link":  "Baxter Letter",
+        "Description":  "Baxter is placing additional limits on the ExactaMix valve set and setting the allocation at 65%. Allocation amounts for selected amino acids are being increased to 125%. ",
+        "Issue_x0020_Type":  "Raw Material Shortage",
+        "Sourcing_x0020_Option":  "Contracted Alternatives, Purchase Allocation",
+        "Resources":  "Award Summary",
+        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products"
+    },
+    {
+        "Priority":  "Medium",
+        "DateReported":  "5/4/2022",
+        "Category":  "Infusion Pumps Sets Solutions and Needleless Products",
+        "Contract_x0020_No":  "44256",
+        "Product_x0020_Impacted":  "#2B0944 Heparin Sodium in 0.9% sodium chloride injection 1000ML   #AHB0953U Heparin Sodium in 0.9% sodium chloride injection 500ML ",
+        "Communication_x0020_Link":  "Baxter Letter",
+        "Description":  "Baxter is implementing a 100% allocation for the premix Heparin products.",
+        "Issue_x0020_Type":  "Demand Fluctuations",
+        "Sourcing_x0020_Option":  "Purchase Allocation",
+        "Resources":  "Award Summary",
+        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products "
     }
 ]
 

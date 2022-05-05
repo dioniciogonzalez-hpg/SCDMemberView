@@ -15,7 +15,7 @@ $ResourcesPath = "/Shared Documents/Resources"
 $ResourcesDownloadPath = "\\CORPDPT08\HPGShare\Common\SCDMemberView\Publish\Resources"
  
 #Connect to PnP Online
-Connect-PnPOnline -Url $SiteURL -Interactive
+Connect-PnPOnline -Url $SiteURL -UseWebLogin
  
 #Get List items from the list
 $ListItems = Get-PnPListItem -List $ListName -PageSize 500 -Fields $SelectedFields
@@ -32,6 +32,7 @@ $ListItems | ForEach-Object {
     $ListItem_Plain  = Get-PnPProperty -ClientObject $_ -Property FieldValuesAsText 
     $ContractID = ''
     $ItemValue = ''
+    $NewValue = ''
 
     ForEach($Field in $SelectedFields)
     {
@@ -44,14 +45,16 @@ $ListItems | ForEach-Object {
         {
             $ContractURL = 'href="https://members.healthtrustpg.com/contracts/' + $ContractID + '"'
             $ItemValue = $ListItem[$Field]
-            $ItemValue = $ItemValue -replace 'href=\"https\u0026#58;//members.healthtrustpg.com/-/media/.*\"', $ContractURL
+            $NewValue = $ItemValue -replace 'href=\"https\u0026#58;//members.healthtrustpg.com/-/media/[A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9]\"', $ContractURL
         }
         Else
         {
-            $ItemValue = $ListItem[$Field]
+            $NewValue = $ListItem[$Field]
         }
 
-        $ListData | Add-Member Noteproperty $Field $ItemValue
+        #$ItemValue = $ListItem[$Field]
+
+        $ListData | Add-Member Noteproperty $Field $NewValue
         $ListData_Plain | Add-Member Noteproperty $Field $ListItem_Plain[$Field]
     }  
     $ListDataColl += $ListData 
