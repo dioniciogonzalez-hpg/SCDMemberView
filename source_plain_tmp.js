@@ -1,4 +1,4 @@
-var json_data_plain = [
+[
     {
         "Priority":  "Low",
         "DateReported":  "2022-05-13",
@@ -2156,4 +2156,3 @@ var json_data_plain = [
         "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products"
     }
 ]
-

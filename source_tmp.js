@@ -1,4 +1,4 @@
-var json_data = [
+[
     {
         "Priority":  "Low",
         "DateReported":  "2022-05-13",
@@ -2156,4 +2156,3 @@ var json_data = [
         "Cross_x0020_Reference_x0020_Prod":  "\u003cdiv class=\"ExternalClass1AA68F25BF054FF6A46A31643F0E047F\"\u003e\u003cdiv\u003e\u003ca target=\"_blank\" href=\"https://members.healthtrustpg.com/contracts/?44256\" title=\"?Infusion Pumps, Sets, Solutions and Needleless Products\"\u003eInfusion Pumps, Sets, Solutions and Needleless Products\u003c/a\u003e\u003cbr\u003e\u003c/div\u003e\u003c/div\u003e"
     }
 ]
-

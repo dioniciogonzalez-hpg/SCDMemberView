@@ -57,7 +57,7 @@
             <button id="download-table-pdf">Print</button>            
         </div>
     </div>
-    <p></p>
+    <p style="font-family: Verdana; font-size: small;">The content is refreshed daily. Please be sure to refresh your browser to see the latest updates.</p>
     <div id="issue-tracker-table"></div>
     <div id="issue-tracker-table-plain" style="height: 0px;"></div>
     
@@ -71,7 +71,7 @@
             layout: "fitDataStretch",
             responsiveLayout: "collapse",
             initialSort: [
-                { column: "DateReported", dir: "desc" },
+                { column: "Modified", dir: "desc" },
             ],
             columns: [
                 {
@@ -94,7 +94,8 @@
                         }
                     }
                 },
-                { title: "Modified", field: "DateReported", hozAlign: "left", width: 100, headerFilter: "input" },
+                { title: "Reported", field: "DateReported", sorter:"Date", sorterParams:{format:"YYYYMMDD"}, hozAlign: "left", width: 100, headerFilter: "input" },
+                { title: "Modified", field: "Modified", sorter:"Date", sorterParams:{format:"YYYYMMDD"}, hozAlign: "left", width: 100, headerFilter: "input" },
                 { title: "Category", field: "Category", hozAlign: "left", formatter: htmlWrapFormatter, width: 130, headerFilter: "input" },
                 { title: "Contract", field: "Contract_x0020_No", hozAlign: "left", formatter: htmlWrapFormatter, width: 70, headerFilter: "input" },
                 { title: "Product Impacted", field: "Product_x0020_Impacted", hozAlign: "left", formatter: htmlWrapFormatter, width: 150, headerFilter: "input" },
@@ -126,7 +127,8 @@
             ],
             columns: [
                 { title: "PRI", field: "Priority", hozAlign: "left", width: 40 },
-                { title: "Modified", field: "DateReported", hozAlign: "left", width: 50 },
+                { title: "Reported", field: "DateReported", hozAlign: "left", width: 50 },
+                { title: "Modified", field: "Modified", hozAlign: "left", width: 50 },
                 { title: "Category", field: "Category", hozAlign: "left", width: 60 },
                 { title: "Contract", field: "Contract_x0020_No", hozAlign: "left", width: 45 },
                 { title: "Product Impacted", field: "Product_x0020_Impacted", hozAlign: "left", width: 90 },
@@ -167,15 +169,16 @@
                     columnStyles: {
                         0: {cellWidth: 40},
                         1: {cellWidth: 50},
-                        2: {cellWidth: 60},
-                        3: {cellWidth: 45},
-                        4: {cellWidth: 90},
+                        2: {cellWidth: 50},
+                        3: {cellWidth: 60},
+                        4: {cellWidth: 45},
                         5: {cellWidth: 90},
                         6: {cellWidth: 90},
                         7: {cellWidth: 90},
                         8: {cellWidth: 90},
-                        9: {cellWidth: 90},
-                        10: {cellWidth: 90}
+                        0: {cellWidth: 90},
+                        10: {cellWidth: 90},
+                        11: {cellWidth: 90}
                     }
                 }
             });
