@@ -6,6 +6,7 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
     <link crossorgin="anonymous" href="https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css" rel="stylesheet">
     <link crossorgin="anonymous" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script crossorgin="anonymous" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -94,10 +95,11 @@
                         }
                     }
                 },
-                { title: "Reported", field: "DateReported", sorter:"Date", sorterParams:{format:"YYYYMMDD"}, hozAlign: "left", width: 100, headerFilter: "input" },
                 { title: "Modified", field: "Modified", sorter:"Date", sorterParams:{format:"YYYYMMDD"}, hozAlign: "left", width: 100, headerFilter: "input" },
+                { title: "Reported", field: "DateReported", sorter:"Date", sorterParams:{format:"YYYYMMDD"}, hozAlign: "left", width: 100, headerFilter: "input" },
                 { title: "Category", field: "Category", hozAlign: "left", formatter: htmlWrapFormatter, width: 130, headerFilter: "input" },
                 { title: "Contract", field: "Contract_x0020_No", hozAlign: "left", formatter: htmlWrapFormatter, width: 70, headerFilter: "input" },
+                { title: "Supplier", field: "Supplier", hozAlign: "left", formatter: htmlWrapFormatter, width: 150, headerFilter: "input" },
                 { title: "Product Impacted", field: "Product_x0020_Impacted", hozAlign: "left", formatter: htmlWrapFormatter, width: 150, headerFilter: "input" },
                 { title: "Communication", field: "Communication_x0020_Link", hozAlign: "left", formatter: htmlWrapFormatter, width: 150 },
                 { title: "Issue Details", field: "Description", hozAlign: "left", formatter: htmlWrapFormatter, width: 150 },
@@ -127,10 +129,11 @@
             ],
             columns: [
                 { title: "PRI", field: "Priority", hozAlign: "left", width: 40 },
-                { title: "Reported", field: "DateReported", hozAlign: "left", width: 50 },
                 { title: "Modified", field: "Modified", hozAlign: "left", width: 50 },
+                { title: "Reported", field: "DateReported", hozAlign: "left", width: 50 },
                 { title: "Category", field: "Category", hozAlign: "left", width: 60 },
                 { title: "Contract", field: "Contract_x0020_No", hozAlign: "left", width: 45 },
+                { title: "Supplier", field: "Supplier", hozAlign: "left", width: 90 },
                 { title: "Product Impacted", field: "Product_x0020_Impacted", hozAlign: "left", width: 90 },
                 { title: "Communication", field: "Communication_x0020_Link", hozAlign: "left", width: 90 },
                 { title: "Issue Details", field: "Description", hozAlign: "left", width: 90 },

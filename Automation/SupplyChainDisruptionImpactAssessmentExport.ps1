@@ -4,7 +4,7 @@ Add-PSSnapin Microsoft.SharePoint.PowerShell -ErrorAction SilentlyContinue
 #Parameters
 $SiteURL = "https://hcahealthcare.sharepoint.com/sites/HTPS-healthtrustsupplychaindisruption"
 $ListName = "Issue Tracker"
-$SelectedFields = @("Priority", "DateReported", "Modified", "Category", "Contract_x0020_No", "Product_x0020_Impacted", "Communication_x0020_Link", "Description", "Issue_x0020_Type", "Sourcing_x0020_Option", "Resources", "Cross_x0020_Reference_x0020_Prod") 
+$SelectedFields = @("Priority", "Modified", "DateReported", "Category", "Contract_x0020_No", "Supplier", "Product_x0020_Impacted", "Communication_x0020_Link", "Description", "Issue_x0020_Type", "Sourcing_x0020_Option", "Resources", "Cross_x0020_Reference_x0020_Prod") 
 $CSVPath = "\\CORPDPT08\HPGShare\Common\SCDMemberView\SupplyChainDisruptionImpactAssessment.csv"
 $CSVPath_Plain = "\\CORPDPT08\HPGShare\Common\SCDMemberView\SupplyChainDisruptionImpactAssessment_Plain.csv"
 $JSONPath = "\\CORPDPT08\HPGShare\Common\SCDMemberView\SupplyChainDisruptionImpactAssessment.json"
@@ -139,7 +139,11 @@ $lookupTable = @{
     'u003ca href' = 'u003ca target=\"_blank\" href'
     '.ashxutm_campaign.*\" title' = '\" title'
     '/\\u0026#58;[a-zA-Z]\\u0026#58;/[a-zA-Z]/sites' = ''
+    '/\\u0026#58;[a-zA-Z]\\u0026#58;/[a-zA-Z]' = ''
+    '/sites/HTPS-healthtrustsupplychaindisruption/Shared%20Documents' = ''
     '/HTPS-healthtrustsupplychaindisruption/Shared%20Documents' = ''
+    '/sites' = ''
+    'https\\u0026#58;//supplydisruption.healthtrustpg.com' = ''
 }
 
 Get-Content -Path $JSONPath | ForEach-Object {
@@ -180,16 +184,16 @@ Clear-Content -Path $FinalPath_Plain -Force
 "var json_data = " + (Get-Content $FormattedPath -Raw) | Set-Content $FinalPath
 "var json_data_plain = " + (Get-Content $FormattedPath_Plain -Raw) | Set-Content $FinalPath_Plain
 
-### download resources
-#$CurrentResources = $ResourcesDownloadPath + "\*.*"
+### remove and download resources
+$CurrentResources = $ResourcesDownloadPath + "\*.*"
 
-#Remove-Item $CurrentResources
+Remove-Item $CurrentResources
 
-#$ResourcesItems = Get-PnPFolderItem $ResourcesPath -ItemType File
+$ResourcesItems = Get-PnPFolderItem $ResourcesPath -ItemType File
  
-#foreach($Item in $ResourcesItems)
-#{
-#    $FilePath = $ResourcesPath + '/' + $Item.Name
+foreach($Item in $ResourcesItems)
+{
+    $FilePath = $ResourcesPath + '/' + $Item.Name
     
-#    Get-PnPFile -URL $FilePath -Path $ResourcesDownloadPath -FileName $Item.Name -AsFile -Force
-#}
+    Get-PnPFile -URL $FilePath -Path $ResourcesDownloadPath -FileName $Item.Name -AsFile -Force
+}
