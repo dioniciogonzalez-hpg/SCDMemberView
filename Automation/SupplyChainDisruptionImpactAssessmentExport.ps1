@@ -50,6 +50,7 @@ $ListItems | ForEach-Object {
     ForEach($Field in $SelectedFields)
     {
         $ItemValue = $ListItem[$Field]
+        $ItemValue = [System.Web.HTTPUtility]::UrlEncode($ItemValue)
         $ItemPlainValue = $ListItem_Plain[$Field]
         
         switch($Field)
@@ -58,6 +59,9 @@ $ListItems | ForEach-Object {
                 $ContractID = $ItemPlainValue
                 $NewValue = $ItemValue
                 $NewPlainValue = $ItemPlainValue
+            }
+            'Category' {
+                $NewValue = $ItemPlainValue
             }
             'Resources' {
                 $ContractURL = 'href="https://members.healthtrustpg.com/contracts/' + $ContractID + '"'
@@ -131,11 +135,13 @@ Clear-Content -Path $FormattedPath -Force
 Clear-Content -Path $FormattedPath_Plain -Force
 
 $lookupTable = @{
-    '\?\\"\\u003e\\u003cspan' = '\"\u003e\u003cspan'
-    '\?\\u003c/a' = '\u003c/a'
-    '\?\\u003c/span' = '\u003c/span'
     '\\u003e\?' = '\u003e'
-    'title=\"\?' = 'title=\"'
+    '\?\\"\\u003e' = '\"\u003e'
+    '\?\\u003c' = '\u003c'
+    'title=\\"\?' = 'title=\"'
+    '\?\?' = ''
+    '\? ' = ' '
+    '\"\?' = '"'
     'u003ca href' = 'u003ca target=\"_blank\" href'
     '.ashxutm_campaign.*\" title' = '\" title'
     '/\\u0026#58;[a-zA-Z]\\u0026#58;/[a-zA-Z]/sites' = ''
