@@ -4,7 +4,7 @@ Add-PSSnapin Microsoft.SharePoint.PowerShell -ErrorAction SilentlyContinue
 #Parameters
 $SiteURL = "https://hcahealthcare.sharepoint.com/sites/HTPS-healthtrustsupplychaindisruption"
 $ListName = "Issue Tracker"
-$SelectedFields = @("Priority", "Modified", "DateReported", "Category", "Contract_x0020_No", "Supplier", "Product_x0020_Impacted", "Communication_x0020_Link", "Description", "Issue_x0020_Type", "Sourcing_x0020_Option", "Resources", "Cross_x0020_Reference_x0020_Prod") 
+$SelectedFields = @("Priority", "Modified", "DateReported", "Category", "Contract_x0020_No", "Supplier", "Product_x0020_Impacted", "Communication_x0020_Link", "Description", "Issue_x0020_Type", "Sourcing_x0020_Option", "Resources", "Cross_x0020_Reference_x0020_Prod", "HT_x0020_Recommendation") 
 $CSVPath = "\\CORPDPT08\HPGShare\Common\SCDMemberView\SupplyChainDisruptionImpactAssessment.csv"
 $CSVPath_Plain = "\\CORPDPT08\HPGShare\Common\SCDMemberView\SupplyChainDisruptionImpactAssessment_Plain.csv"
 $JSONPath = "\\CORPDPT08\HPGShare\Common\SCDMemberView\SupplyChainDisruptionImpactAssessment.json"
@@ -142,14 +142,42 @@ $lookupTable = @{
     '\?\?' = ''
     '\? ' = ' '
     '\"\?' = '"'
-    'u003ca href' = 'u003ca target=\"_blank\" href'
+    'href' = 'target=\"_blank\"+href'
     '.ashxutm_campaign.*\" title' = '\" title'
     '/\\u0026#58;[a-zA-Z]\\u0026#58;/[a-zA-Z]/sites' = ''
     '/\\u0026#58;[a-zA-Z]\\u0026#58;/[a-zA-Z]' = ''
+    '%2f%26%2358%3ba%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bb%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bc%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bd%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3be%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bf%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bg%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bh%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bi%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bj%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bk%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bl%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bm%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bn%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bo%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bp%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bq%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3br%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bs%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bt%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bu%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bv%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bw%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bx%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3by%26%2358%3b%2fr%2fResources' = '%2fResources'
+    '%2f%26%2358%3bz%26%2358%3b%2fr%2fResources' = '%2fResources'
     '/sites/HTPS-healthtrustsupplychaindisruption/Shared%20Documents' = ''
+    '%2fsites%2fHTPS-healthtrustsupplychaindisruption%2fShared%2520Documents' = ''
     '/HTPS-healthtrustsupplychaindisruption/Shared%20Documents' = ''
+    '%2fHTPS-healthtrustsupplychaindisruption%2fShared%2520Documents' = ''
     '/sites' = ''
-    'https\\u0026#58;//supplydisruption.healthtrustpg.com' = ''
+    '%2fsites' = ''
 }
 
 Get-Content -Path $JSONPath | ForEach-Object {

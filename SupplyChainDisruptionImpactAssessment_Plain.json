@@ -12,7 +12,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage, Manufacturing Delays from Third Party Vendor",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Alternatives Recommended by Supplier",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Wound Care, Advanced (Full Line)"
+        "Cross_x0020_Reference_x0020_Prod":  "Wound Care, Advanced (Full Line)",
+        "HT_x0020_Recommendation":  "?Review recommended substitutions provided in this communication. Please work with your local Medline representative for supply updates or recommended product substitutions. "
     },
     {
         "Priority":  "Low",
@@ -27,11 +28,12 @@
         "Issue_x0020_Type":  "Packaging Issue, Raw Material Shortage",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier, Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "No cross posted"
+        "Cross_x0020_Reference_x0020_Prod":  "No cross posted",
+        "HT_x0020_Recommendation":  "?Review recommended substitutions provided in this communication. Please work with your local Medline representative for supply updates or recommended product substitutions. "
     },
     {
         "Priority":  "Medium",
-        "Modified":  "2022-05-16",
+        "Modified":  "2022-06-23",
         "DateReported":  "2022-05-13",
         "Category":  "2022-05-13",
         "Contract_x0020_No":  "3189",
@@ -42,7 +44,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage",
         "Sourcing_x0020_Option":  "Clinical Alternatives, Non-Contracted Alternatives",
         "Resources":  "?Award SummaryClinical Resource - Education?",
-        "Cross_x0020_Reference_x0020_Prod":  "Drapes - Specialty and Surgical"
+        "Cross_x0020_Reference_x0020_Prod":  "Drapes - Specialty and Surgical",
+        "HT_x0020_Recommendation":  "?Work with your local 3M representative for alternatives."
     },
     {
         "Priority":  "Retire/Resolved",
@@ -57,7 +60,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage",
         "Sourcing_x0020_Option":  "Member Communication",
         "Resources":  "?Award Summary Clinical Resource - Baby Powder Clinical Evidence?",
-        "Cross_x0020_Reference_x0020_Prod":  "Baby Skin Care Supplies"
+        "Cross_x0020_Reference_x0020_Prod":  "Baby Skin Care Supplies",
+        "HT_x0020_Recommendation":  "?No issues at present.  Continue to watch."
     },
     {
         "Priority":  "Low",
@@ -72,7 +76,8 @@
         "Issue_x0020_Type":  "Manufacturing Delays from Third Party Vendor",
         "Sourcing_x0020_Option":  "Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Bandages - Elastic"
+        "Cross_x0020_Reference_x0020_Prod":  "Bandages - Elastic",
+        "HT_x0020_Recommendation":  "Work with your local Medline representative for supply updates and recommended alternatives."
     },
     {
         "Priority":  "Medium",
@@ -87,7 +92,8 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier",
         "Resources":  "?Award Summary?Clinical Resource - Specialty Balloon Clinical EvidenceClinical Resource - Specialty Balloon PFS",
-        "Cross_x0020_Reference_x0020_Prod":  "Balloons - Cutting (Cardiac and Peripheral)"
+        "Cross_x0020_Reference_x0020_Prod":  "Balloons - Cutting (Cardiac and Peripheral)",
+        "HT_x0020_Recommendation":  "?Please work with your local Boston Scientific representative for supply updates and recommendations. "
     },
     {
         "Priority":  "Low",
@@ -102,11 +108,12 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges, Shipping Delays",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Bandages - Elastic Self-Adherent (Coban)"
+        "Cross_x0020_Reference_x0020_Prod":  "Bandages - Elastic Self-Adherent (Coban)",
+        "HT_x0020_Recommendation":  "Please refer to 3M letter for suggested alternatives of discontinued products."
     },
     {
         "Priority":  "High",
-        "Modified":  "2022-02-17",
+        "Modified":  "2022-06-23",
         "DateReported":  "2021-10-26",
         "Category":  "2021-10-26",
         "Contract_x0020_No":  "56458",
@@ -117,7 +124,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations",
         "Sourcing_x0020_Option":  "Non-Contracted Alternatives",
         "Resources":  "?Award SummaryClinical Resource - Collection Tube Conservation",
-        "Cross_x0020_Reference_x0020_Prod":  "Blood Collection - Tubes"
+        "Cross_x0020_Reference_x0020_Prod":  "?Blood Collection - Tubes",
+        "HT_x0020_Recommendation":  "?Work with your local Greiner representative for supply updates. "
     },
     {
         "Priority":  "High",
@@ -132,7 +140,8 @@
         "Issue_x0020_Type":  "Component Disruption",
         "Sourcing_x0020_Option":  "Clinical Alternatives",
         "Resources":  "?Award SummaryClinical Resource - Blood Fluid Warmers PFS",
-        "Cross_x0020_Reference_x0020_Prod":  "Blood/Fluid Warming Equipment and Supplies"
+        "Cross_x0020_Reference_x0020_Prod":  "Blood/Fluid Warming Equipment and Supplies",
+        "HT_x0020_Recommendation":  "?Please work with your local Smiths Medical representative for supply updates or product recommendations."
     },
     {
         "Priority":  "High",
@@ -147,7 +156,8 @@
         "Issue_x0020_Type":  "Component Disruption",
         "Sourcing_x0020_Option":  "Clinical Alternatives",
         "Resources":  "??Award SummaryClinical Resource - Blood Fluid Warmers PFS?Clinical Resource - Blood Fluid Warmers CES",
-        "Cross_x0020_Reference_x0020_Prod":  "Blood/Fluid Warming Equipment and Supplies"
+        "Cross_x0020_Reference_x0020_Prod":  "Blood/Fluid Warming Equipment and Supplies",
+        "HT_x0020_Recommendation":  "Please work with your local Smiths Medical representative for supply updates or product recommendations."
     },
     {
         "Priority":  "High",
@@ -162,7 +172,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage, Labor Shortages, Demand Fluctuations",
         "Sourcing_x0020_Option":  "Purchase Allocation, Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "No cross posted"
+        "Cross_x0020_Reference_x0020_Prod":  "No cross posted",
+        "HT_x0020_Recommendation":  "Please work with your local Siemens representative for any questions or issues."
     },
     {
         "Priority":  "Medium",
@@ -177,7 +188,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage, Demand Fluctuations",
         "Sourcing_x0020_Option":  "Purchase Allocation, Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "No cross posted"
+        "Cross_x0020_Reference_x0020_Prod":  "No cross posted",
+        "HT_x0020_Recommendation":  "Please work with your local Kerma representative for supply updates or product recommendations."
     },
     {
         "Priority":  "Retire/Resolved",
@@ -192,7 +204,8 @@
         "Issue_x0020_Type":  "Not Selected, Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Member Communication",
         "Resources":  "?Award Summary",
-        "Cross_x0020_Reference_x0020_Prod":  "No cross posted"
+        "Cross_x0020_Reference_x0020_Prod":  "No cross posted",
+        "HT_x0020_Recommendation":  "?Please work with your local Medline representative for supply updates or substitute product recommendations. "
     },
     {
         "Priority":  "High",
@@ -207,7 +220,8 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges, Labor Shortages, Demand Fluctuations",
         "Sourcing_x0020_Option":  "Purchase Direct",
         "Resources":  "UPDATE 6/13 JAMA resource uploaded??Award SummaryClinical Resource - JAMA Comparison Strategies for Contrast ConservationClinical Resource - ASHP Contrast Conservation GuidanceClinical Resource - HealthTrust Contrast Conservation GuidanceClinical Resource - PFS",
-        "Cross_x0020_Reference_x0020_Prod":  "Contrast Media - Radiographic"
+        "Cross_x0020_Reference_x0020_Prod":  "Contrast Media - Radiographic",
+        "HT_x0020_Recommendation":  "For any other questions regarding product availability, please contact customer service at (877) 272-2269, prompt #1, or reach out to Scott Condon at scott.condon@diag.bracco.com. UPDATE 5/13Bracco is evaluating how they may support other HealthTrust members affected by the GE supply disruption. To ensure no disruption or delay in on-going orders, please refrain from ordering in large excess of current utilization in an effort to stock up against the risk of no future supply. Doing so may delay timing of processing the order as Bracco validates against past usage. We recommend conservation measures for radiographic contrast media be implemented by all members regardless of the manufacturer utilized. Conservation may enable suppliers to move inventory as necessary to handle critical patient needs."
     },
     {
         "Priority":  "Medium",
@@ -222,7 +236,8 @@
         "Issue_x0020_Type":  "Shipping Delays, Demand Fluctuations, Raw Material Shortage",
         "Sourcing_x0020_Option":  "Purchase Allocation, Member Communication",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Durable Medical Equipment"
+        "Cross_x0020_Reference_x0020_Prod":  "Durable Medical Equipment",
+        "HT_x0020_Recommendation":  "?All suppliers are have supply issues regarding crutches. Please continue to work with your supplier for supply updates and recommendations."
     },
     {
         "Priority":  "Critical",
@@ -237,7 +252,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage, Component Disruption",
         "Sourcing_x0020_Option":  "Purchase Direct, Non-Contracted Alternatives, Clinical Alternatives",
         "Resources":  "?Award SummaryClinical Resource - Clinical Practice Alternatives",
-        "Cross_x0020_Reference_x0020_Prod":  "Drains - Chest and Autotransfusion Bags"
+        "Cross_x0020_Reference_x0020_Prod":  "Drains - Chest and Autotransfusion Bags",
+        "HT_x0020_Recommendation":  "Getinge provided recommended substitutes in the event of a backorder situation. Some of the recommendations include off contract suppliers and HealthTrust is aware. It is recommended to utilize the most appropriate clinically approved product that is available to support the patient and HealthTrust will continue to work with Getinge and evaluate the situation."
     },
     {
         "Priority":  "High",
@@ -252,11 +268,12 @@
         "Issue_x0020_Type":  "Labor Shortages, Raw Material Shortage",
         "Sourcing_x0020_Option":  "Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Electrodes ? Cables and Leads ? Cardiac"
+        "Cross_x0020_Reference_x0020_Prod":  "Electrodes ? Cables and Leads ? Cardiac",
+        "HT_x0020_Recommendation":  "?Please work with your local Cardinal representative for supply updates and recommended alternatives. "
     },
     {
         "Priority":  "Medium",
-        "Modified":  "2022-02-17",
+        "Modified":  "2022-06-23",
         "DateReported":  "2021-10-26",
         "Category":  "2021-10-26",
         "Contract_x0020_No":  "743",
@@ -267,7 +284,8 @@
         "Issue_x0020_Type":  "Packaging Issue, Raw Material Shortage",
         "Sourcing_x0020_Option":  "Member Communication",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Endomechanical Products Disposable"
+        "Cross_x0020_Reference_x0020_Prod":  "?Endomechanical Products Disposable",
+        "HT_x0020_Recommendation":  "?Please continue to place orders as usual and work with your local Ethicon representative on any questions specific to your account."
     },
     {
         "Priority":  "Medium",
@@ -282,11 +300,12 @@
         "Issue_x0020_Type":  "Shipping Delays",
         "Sourcing_x0020_Option":  "Contracted Alternatives",
         "Resources":  "?Award SummaryClinical Resource - Disposable Endoscopes PFSClinical Resource - Proper Care and Handling?",
-        "Cross_x0020_Reference_x0020_Prod":  "Endoscope and Instrument Care - Cleaning Transport and Related Supplies"
+        "Cross_x0020_Reference_x0020_Prod":  "Endoscope and Instrument Care - Cleaning Transport and Related Supplies",
+        "HT_x0020_Recommendation":  "?Please work with your 3M account manager for supply updates and recommendations. "
     },
     {
         "Priority":  "Retire/Resolved",
-        "Modified":  "2022-05-04",
+        "Modified":  "2022-06-23",
         "DateReported":  "2021-11-19",
         "Category":  "2021-11-19",
         "Contract_x0020_No":  "388",
@@ -297,7 +316,8 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier",
         "Resources":  "?Award SummaryClinical Resource - Balloon Sinuplasty PFS?Clinical Resource - ENT Implants PFS?Clinical Resource - Nasal Packing PFS?",
-        "Cross_x0020_Reference_x0020_Prod":  "ENT Equipment and Supplies"
+        "Cross_x0020_Reference_x0020_Prod":  "ENT Equipment and Supplies",
+        "HT_x0020_Recommendation":  "?Substitutions provided in letter. Please  continue working with your local Medtronic sales representative regarding any product supply issues experienced, as they may have additional options to support the necessary situation."
     },
     {
         "Priority":  "Retire/Resolved",
@@ -312,7 +332,8 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Non-Contracted Alternatives",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Enteral Feeding Pumps, Sets, Feeding Tubes and Related Supplies"
+        "Cross_x0020_Reference_x0020_Prod":  "Enteral Feeding Pumps, Sets, Feeding Tubes and Related Supplies",
+        "HT_x0020_Recommendation":  "?Please work with your local Cardinal representative for supply updates."
     },
     {
         "Priority":  "Retire/Resolved",
@@ -327,14 +348,15 @@
         "Issue_x0020_Type":  "Raw Material Shortage, Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Purchase Allocation",
         "Resources":  "?Award SummaryClinical Resource - Transitioning Across Devices",
-        "Cross_x0020_Reference_x0020_Prod":  "?Neonatal - Enteral Feeding Tubes and Accessories"
+        "Cross_x0020_Reference_x0020_Prod":  "?Neonatal - Enteral Feeding Tubes and Accessories",
+        "HT_x0020_Recommendation":  "?Please work with your chosen supplier for supply updates and product recommendations and any additional ENFit guidelines. "
     },
     {
         "Priority":  "Retire/Resolved",
-        "Modified":  "2022-05-04",
+        "Modified":  "2022-06-23",
         "DateReported":  "2021-10-26",
         "Category":  "2021-10-26",
-        "Contract_x0020_No":  "52985",
+        "Contract_x0020_No":  "?52985",
         "Supplier":  "Advance Medical",
         "Product_x0020_Impacted":  "New conversion products impacted.",
         "Communication_x0020_Link":  "?Advance Medical Letter ",
@@ -342,11 +364,12 @@
         "Issue_x0020_Type":  "Shipping Delays",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Non-Contracted Alternatives",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Equipment Drapes -Surgical"
+        "Cross_x0020_Reference_x0020_Prod":  "Equipment Drapes -Surgical",
+        "HT_x0020_Recommendation":  "?Contact Advance Medical as they will evaluate and determine if they can support based on supply at the time."
     },
     {
         "Priority":  "Medium",
-        "Modified":  "2022-02-11",
+        "Modified":  "2022-06-23",
         "DateReported":  "2021-12-10",
         "Category":  "2021-12-10",
         "Contract_x0020_No":  "1416",
@@ -357,7 +380,8 @@
         "Issue_x0020_Type":  "Not Selected",
         "Sourcing_x0020_Option":  "Not Selected",
         "Resources":  "?Award SummaryClinical Resource - Fit Testing?",
-        "Cross_x0020_Reference_x0020_Prod":  "Facemasks, Respirators \u0026 Fit Test Kits"
+        "Cross_x0020_Reference_x0020_Prod":  "Facemasks, Respirators \u0026 Fit Test Kits",
+        "HT_x0020_Recommendation":  "Please work with your local O\u0026M Halyard representative for supply updates"
     },
     {
         "Priority":  "Medium",
@@ -372,7 +396,8 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Facemasks, Respirators \u0026 Fit Test Kits"
+        "Cross_x0020_Reference_x0020_Prod":  "Facemasks, Respirators \u0026 Fit Test Kits",
+        "HT_x0020_Recommendation":  "?Please work with your local 3M Representative for supply updates. "
     },
     {
         "Priority":  "Medium",
@@ -387,7 +412,8 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Member Communication",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Wound Care - General and Surgical Sponges"
+        "Cross_x0020_Reference_x0020_Prod":  "Wound Care - General and Surgical Sponges",
+        "HT_x0020_Recommendation":  "?Please work with your local Medline representative for supply updates and recommended alternatives. "
     },
     {
         "Priority":  "High",
@@ -402,7 +428,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage",
         "Sourcing_x0020_Option":  "Non-Contracted Alternatives, Alternatives Recommended by Supplier",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Urology - General"
+        "Cross_x0020_Reference_x0020_Prod":  "Urology - General",
+        "HT_x0020_Recommendation":  "?Please work with you local BD/Bard representative for supply updates and recommended product substitutions if necessary. "
     },
     {
         "Priority":  "High",
@@ -417,7 +444,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage",
         "Sourcing_x0020_Option":  "Non-Contracted Alternatives, Purchase Allocation",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Urology - General"
+        "Cross_x0020_Reference_x0020_Prod":  "Urology - General",
+        "HT_x0020_Recommendation":  "Please work with you local BD/Bard representative for supply updates and recommended product substitutions if necessary."
     },
     {
         "Priority":  "Low",
@@ -432,7 +460,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations, Product Discontinuation",
         "Sourcing_x0020_Option":  "Non-Contracted Alternatives, Purchase Direct, Purchase Allocation, Alternatives Recommended by Supplier",
         "Resources":  "?Award SummaryClinical Resource - Glove ConservationClinical Resource - Glove by Role Recommendation?",
-        "Cross_x0020_Reference_x0020_Prod":  "Gloves - Exam"
+        "Cross_x0020_Reference_x0020_Prod":  "Gloves - Exam",
+        "HT_x0020_Recommendation":  "?Please work with your local Medline representative for supply updates and product substitutions if necessary. "
     },
     {
         "Priority":  "High",
@@ -447,11 +476,12 @@
         "Issue_x0020_Type":  "Shipping Delays, Demand Fluctuations",
         "Sourcing_x0020_Option":  "Member Communication, Purchase Allocation",
         "Resources":  "?Award SummaryClinical Resource - Glove ConservationClinical Resource - Glove by Job Recommendation?",
-        "Cross_x0020_Reference_x0020_Prod":  "Gloves - Surgeon"
+        "Cross_x0020_Reference_x0020_Prod":  "Gloves - Surgeon",
+        "HT_x0020_Recommendation":  "Please work with your chosen supplier for supply updates and product substitutions if necessary."
     },
     {
         "Priority":  "High",
-        "Modified":  "2022-02-15",
+        "Modified":  "2022-06-23",
         "DateReported":  "2022-02-01",
         "Category":  "2022-02-01",
         "Contract_x0020_No":  "552",
@@ -462,7 +492,8 @@
         "Issue_x0020_Type":  "Shipping Delays",
         "Sourcing_x0020_Option":  "Purchase Allocation",
         "Resources":  "?Award SummaryClinical Resource - Glove ConservationClinical Resource - Glove by Role Recommendation?",
-        "Cross_x0020_Reference_x0020_Prod":  "Gloves - Surgeon"
+        "Cross_x0020_Reference_x0020_Prod":  "Gloves - Surgeon",
+        "HT_x0020_Recommendation":  "Please work with your chosen supplier for supply updates and product substitutions if necessary."
     },
     {
         "Priority":  "High",
@@ -477,7 +508,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations, Shipping Delays",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Purchase Allocation",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "Please work with your local Baxter sales representative for any questions or issues."
     },
     {
         "Priority":  "High",
@@ -492,7 +524,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage, Demand Fluctuations",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Purchase Allocation",
         "Resources":  "Award SummaryClinical Resource - IV Set Conservation",
-        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "Please work with your local Baxter sales representative for any questions or issues."
     },
     {
         "Priority":  "High",
@@ -507,7 +540,8 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Purchase Allocation",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "Please work with your local Baxter sales representative for any questions or issues."
     },
     {
         "Priority":  "High",
@@ -522,7 +556,8 @@
         "Issue_x0020_Type":  "Labor Shortages, Shipping Delays, Raw Material Shortage, Demand Fluctuations",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Purchase Allocation",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "Please work with your local Baxter sales representative for any questions or issues."
     },
     {
         "Priority":  "Retire/Resolved",
@@ -537,7 +572,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Purchase Allocation",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "?Please work with your local Baxter sales representative for any questions or issues. "
     },
     {
         "Priority":  "High",
@@ -552,7 +588,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Purchase Allocation",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "Please work with your local Baxter sales representative for any questions or issues."
     },
     {
         "Priority":  "High",
@@ -567,7 +604,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Purchase Allocation",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "Please work with your local Baxter sales representative for any questions or issues."
     },
     {
         "Priority":  "High",
@@ -582,7 +620,8 @@
         "Issue_x0020_Type":  "Labor Shortages, Shipping Delays",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Purchase Allocation",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "Please work with your local Baxter sales representative for any questions or issues."
     },
     {
         "Priority":  "High",
@@ -597,7 +636,8 @@
         "Issue_x0020_Type":  "Manufacturing Delays from Third Party Vendor",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Purchase Allocation",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "Please work with your local Baxter sales representative for any questions or issues."
     },
     {
         "Priority":  "Medium",
@@ -612,7 +652,8 @@
         "Issue_x0020_Type":  "Manufacturing Delays from Third Party Vendor",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Purchase Allocation",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "Please work with your local Baxter sales representative for any questions or issues."
     },
     {
         "Priority":  "High",
@@ -627,7 +668,8 @@
         "Issue_x0020_Type":  "Labor Shortages, Demand Fluctuations, Raw Material Shortage",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Purchase Allocation",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "Refer to BBraun letter for potential product substitutions and work with your local Representative for assistance.  "
     },
     {
         "Priority":  "High",
@@ -642,11 +684,12 @@
         "Issue_x0020_Type":  "Demand Fluctuations",
         "Sourcing_x0020_Option":  "Contracted Alternatives",
         "Resources":  "??Award SummaryClinical Resource - Conservation of IV Sets?",
-        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "Refer to BBraun letter for potential product substitutions and work with your local Representative for assistance."
     },
     {
         "Priority":  "High",
-        "Modified":  "2022-02-17",
+        "Modified":  "2022-06-23",
         "DateReported":  "2021-10-26",
         "Category":  "2021-10-26",
         "Contract_x0020_No":  "7678",
@@ -657,11 +700,12 @@
         "Issue_x0020_Type":  "Raw Material Shortage",
         "Sourcing_x0020_Option":  "Contracted Alternatives",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "Refer to BBraun letter for potential product substitutions and work with your local Representative for assistance."
     },
     {
         "Priority":  "Medium",
-        "Modified":  "2022-03-23",
+        "Modified":  "2022-06-23",
         "DateReported":  "2022-03-23",
         "Category":  "2022-03-23",
         "Contract_x0020_No":  "7679",
@@ -672,7 +716,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations",
         "Sourcing_x0020_Option":  "Contracted Alternatives",
         "Resources":  "Award SummaryClinical Resource - Saline Flush Clinical Alternative?",
-        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "Please work with your local ICU Medical for supply updates."
     },
     {
         "Priority":  "High",
@@ -687,7 +732,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Purchase Allocation",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "Please work with your local Smiths Medical representative for supply updates or product recommendations."
     },
     {
         "Priority":  "High",
@@ -702,7 +748,8 @@
         "Issue_x0020_Type":  "Manufacturing Delays from Third Party Vendor",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Purchase Allocation",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "Please work with your local Smiths Medical representative for supply updates or product recommendations."
     },
     {
         "Priority":  "Medium",
@@ -717,7 +764,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Alternatives Recommended by Supplier",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Irrigation Products - Bulb"
+        "Cross_x0020_Reference_x0020_Prod":  "Irrigation Products - Bulb",
+        "HT_x0020_Recommendation":  "Potential Substitutions DYND20302 or DYND20300Please work with your local Medline representative for supply updates and product substitutions if necessary. This category has a diversity supplier."
     },
     {
         "Priority":  "Watch",
@@ -732,7 +780,8 @@
         "Issue_x0020_Type":  "Shipping Delays, Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Member Communication",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "No cross posted"
+        "Cross_x0020_Reference_x0020_Prod":  "No cross posted",
+        "HT_x0020_Recommendation":  "Please work with your  IT Supplier representative for supply updates or product recommendations."
     },
     {
         "Priority":  "Medium",
@@ -747,7 +796,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier",
         "Resources":  "?Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Kits - Arterial Blood Gas"
+        "Cross_x0020_Reference_x0020_Prod":  "Kits - Arterial Blood Gas",
+        "HT_x0020_Recommendation":  "?Suggested alternatives provided. Please work with your local Smiths Medical representative for supply updates. "
     },
     {
         "Priority":  "Low",
@@ -762,7 +812,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations, Shipping Delays",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Alternatives Recommended by Supplier",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Pillows - Disposable"
+        "Cross_x0020_Reference_x0020_Prod":  "Pillows - Disposable",
+        "HT_x0020_Recommendation":  "?Please work with your local Medline representative for supply updates or substitute product recommendations. Additionally, this category contains a diversity supplier. "
     },
     {
         "Priority":  "Low",
@@ -777,7 +828,8 @@
         "Issue_x0020_Type":  "Mislabeling, Voluntary Recall, Product Discontinuation",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Clinical Alternatives",
         "Resources":  "?Award SummaryClinical Resource - ?Heel Warmer Clinical Evidence",
-        "Cross_x0020_Reference_x0020_Prod":  "No cross posted"
+        "Cross_x0020_Reference_x0020_Prod":  "No cross posted",
+        "HT_x0020_Recommendation":  "?Please work with your local Cardinal representative for supply updates."
     },
     {
         "Priority":  "Low",
@@ -792,7 +844,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage, Shipping Delays",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier, Clinical Alternatives",
         "Resources":  "??Award SummaryClinical Resource - Heel Warmer Clinical Evidence?",
-        "Cross_x0020_Reference_x0020_Prod":  "No cross posted"
+        "Cross_x0020_Reference_x0020_Prod":  "No cross posted",
+        "HT_x0020_Recommendation":  "Please work with your local Cardinal representative for supply updates."
     },
     {
         "Priority":  "Low",
@@ -807,7 +860,8 @@
         "Issue_x0020_Type":  "Not Selected",
         "Sourcing_x0020_Option":  "Sourcing Alternatives",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "No cross posted"
+        "Cross_x0020_Reference_x0020_Prod":  "No cross posted",
+        "HT_x0020_Recommendation":  "HealthTrust is currently sourcing for alternative product."
     },
     {
         "Priority":  "Low",
@@ -822,7 +876,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage",
         "Sourcing_x0020_Option":  "Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "No cross posted"
+        "Cross_x0020_Reference_x0020_Prod":  "No cross posted",
+        "HT_x0020_Recommendation":  "?Currently International Biomedical has the 15mL cups as a viable option, item #989805603401"
     },
     {
         "Priority":  "High",
@@ -837,7 +892,8 @@
         "Issue_x0020_Type":  "Packaging Issue",
         "Sourcing_x0020_Option":  "Purchase Allocation",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "No cross posted"
+        "Cross_x0020_Reference_x0020_Prod":  "No cross posted",
+        "HT_x0020_Recommendation":  "Please work with your local BD representative for supply updates. Substitutions provided in letter."
     },
     {
         "Priority":  "High",
@@ -852,7 +908,8 @@
         "Issue_x0020_Type":  "Labor Shortages, Raw Material Shortage, Manufacturing Delays from Third Party Vendor, Demand Fluctuations",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Non-Contracted Alternatives, Purchase Allocation",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Needles \u0026 Syringes - Safety"
+        "Cross_x0020_Reference_x0020_Prod":  "Needles \u0026 Syringes - Safety",
+        "HT_x0020_Recommendation":  "Please work with your local Cardinal representative for supply updates and recommended alternatives."
     },
     {
         "Priority":  "Low",
@@ -867,7 +924,8 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Non-Contracted Alternatives, Alternatives Recommended by Supplier",
         "Resources":  "Award SummaryClinical Resource - NPWT PFS?Clinical Resource - NPWT Tech Review",
-        "Cross_x0020_Reference_x0020_Prod":  "Negative Pressure Wound Therapy"
+        "Cross_x0020_Reference_x0020_Prod":  "Negative Pressure Wound Therapy",
+        "HT_x0020_Recommendation":  "?See substitutions provided in letter."
     },
     {
         "Priority":  "Retire/Resolved",
@@ -882,7 +940,8 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Non-Contracted Alternatives, Alternatives Recommended by Supplier",
         "Resources":  "?Clinical Resource - PFSClinical Resource - Tech Review?",
-        "Cross_x0020_Reference_x0020_Prod":  "Negative Pressure Wound Therapy"
+        "Cross_x0020_Reference_x0020_Prod":  "Negative Pressure Wound Therapy",
+        "HT_x0020_Recommendation":  "See substitutions provided in letter."
     },
     {
         "Priority":  "High",
@@ -897,7 +956,8 @@
         "Issue_x0020_Type":  "Shipping Delays, Raw Material Shortage, Demand Fluctuations",
         "Sourcing_x0020_Option":  "Purchase Allocation",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "PICCs - Neonatal"
+        "Cross_x0020_Reference_x0020_Prod":  "PICCs - Neonatal",
+        "HT_x0020_Recommendation":  "Please work with your local Cardinal representative for supply updates."
     },
     {
         "Priority":  "High",
@@ -912,7 +972,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage, Equipment Disruption",
         "Sourcing_x0020_Option":  "Purchase Allocation",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Neonatal UV Catheters"
+        "Cross_x0020_Reference_x0020_Prod":  "Neonatal UV Catheters",
+        "HT_x0020_Recommendation":  "?Please work with your local Cardinal representative for supply updates. "
     },
     {
         "Priority":  "Medium",
@@ -927,7 +988,8 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Non-Contracted Alternatives",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Enteral Feeding - Adult Nutritionals"
+        "Cross_x0020_Reference_x0020_Prod":  "Enteral Feeding - Adult Nutritionals",
+        "HT_x0020_Recommendation":  "?Alternative products provided in supplier letter "
     },
     {
         "Priority":  "Watch",
@@ -942,11 +1004,12 @@
         "Issue_x0020_Type":  "Packaging Issue",
         "Sourcing_x0020_Option":  "",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Nutritionals and Formula - Infant and Pediatric"
+        "Cross_x0020_Reference_x0020_Prod":  "Nutritionals and Formula - Infant and Pediatric",
+        "HT_x0020_Recommendation":  "?Mead stated that they have plenty of inventory of the Extra Slow Flow Nipples that has a 50% less flow rate than the slow flow nipples (433912).  Other options include the Nuk Orthodontic Slow Flow Nipple (210504) which has the same flow rate as the Soft Slow Flow Nipple (433905)."
     },
     {
         "Priority":  "Low",
-        "Modified":  "2022-06-06",
+        "Modified":  "2022-06-23",
         "DateReported":  "2022-06-03",
         "Category":  "2022-06-03",
         "Contract_x0020_No":  "246",
@@ -957,7 +1020,8 @@
         "Issue_x0020_Type":  "Not Selected",
         "Sourcing_x0020_Option":  "Contracted Alternatives",
         "Resources":  "?Award SummaryClinical Resource - Probiotics in Infants?",
-        "Cross_x0020_Reference_x0020_Prod":  "Nutritionals and Formula - Infant and Pediatric"
+        "Cross_x0020_Reference_x0020_Prod":  "Nutritionals and Formula - Infant and Pediatric",
+        "HT_x0020_Recommendation":  "?Per Abbott, the use of pediatric nutrition products must be determined by the healthcare professional. When patients need to change to a new formula, please work with that patient\u0027s healthcare professional to determine the best alternate product. "
     },
     {
         "Priority":  "Low",
@@ -972,7 +1036,8 @@
         "Issue_x0020_Type":  "Labor Shortages, Shipping Delays",
         "Sourcing_x0020_Option":  "Member Communication",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "No cross posted"
+        "Cross_x0020_Reference_x0020_Prod":  "No cross posted",
+        "HT_x0020_Recommendation":  "??Staples is encouraging everyone to order 3-4 days in advance when possible.Customers may track the status of their order in the Order History section of their profile on the www.StaplesAdvantage.com website OR communicate with the Staples Customer Service Team through these optionsCustomer ServicePhone ? 1-877-826-7755800 am ? 800 pm ESTMonday - FridayChat ? live with representative on www.StaplesAdvantage.comEmail ? send requests to Support@StaplesAdvantage.com"
     },
     {
         "Priority":  "Medium",
@@ -987,7 +1052,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations, Labor Shortages, Raw Material Shortage",
         "Sourcing_x0020_Option":  "Purchase Direct, Purchase Allocation",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Oral Care - Cleansing and Suctioning Systems"
+        "Cross_x0020_Reference_x0020_Prod":  "Oral Care - Cleansing and Suctioning Systems",
+        "HT_x0020_Recommendation":  "?Please reach out to your Avanos Corporate Account Director if you have questions regarding the allocation process. "
     },
     {
         "Priority":  "High",
@@ -1002,7 +1068,8 @@
         "Issue_x0020_Type":  "Shipping Delays",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Non-Contracted Alternatives, Purchase Allocation, Alternatives Recommended by Supplier",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "OR Towels"
+        "Cross_x0020_Reference_x0020_Prod":  "OR Towels",
+        "HT_x0020_Recommendation":  "?Please work with your local Cardinal representative for supply updates. "
     },
     {
         "Priority":  "High",
@@ -1017,7 +1084,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage, Manufacturing Delays from Third Party Vendor",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Non-Contracted Alternatives, Alternatives Recommended by Supplier",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Positioning Aids - Surgery - Foam"
+        "Cross_x0020_Reference_x0020_Prod":  "Positioning Aids - Surgery - Foam",
+        "HT_x0020_Recommendation":  "?Please work with Cardinal for supply updates and any product substitutions if necessary. This category has a diversity supplier. "
     },
     {
         "Priority":  "Low",
@@ -1032,7 +1100,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations",
         "Sourcing_x0020_Option":  "Non-Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Packs - Instant Hot \u0026 Cold"
+        "Cross_x0020_Reference_x0020_Prod":  "Packs - Instant Hot \u0026 Cold",
+        "HT_x0020_Recommendation":  "?Please work with your local Medline representative for supply updates and product substitutions if necessary. "
     },
     {
         "Priority":  "Low",
@@ -1047,7 +1116,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations, Shipping Delays",
         "Sourcing_x0020_Option":  "Member Communication",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Patient Care Supplies (Pre-Moistened Pads, Swabs, Lubricating Jelly, Etc)"
+        "Cross_x0020_Reference_x0020_Prod":  "Patient Care Supplies (Pre-Moistened Pads, Swabs, Lubricating Jelly, Etc)",
+        "HT_x0020_Recommendation":  "?Please work with your local Medline representative for supply updates and product substitutions if necessary. "
     },
     {
         "Priority":  "Low",
@@ -1062,11 +1132,12 @@
         "Issue_x0020_Type":  "Raw Material Shortage",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier, Clinical Alternatives",
         "Resources":  "?Award SummaryClinical Resource - Patient Temperature Clinical EvidenceClinical Resource - Patient Temperature PFS?",
-        "Cross_x0020_Reference_x0020_Prod":  "Patient Temperature Management - Convective Warming"
+        "Cross_x0020_Reference_x0020_Prod":  "Patient Temperature Management - Convective Warming",
+        "HT_x0020_Recommendation":  "?Please work with your local 3M representative for supply updates. "
     },
     {
         "Priority":  "Watch",
-        "Modified":  "2022-02-17",
+        "Modified":  "2022-06-23",
         "DateReported":  "2021-10-26",
         "Category":  "2021-10-26",
         "Contract_x0020_No":  "922",
@@ -1077,7 +1148,8 @@
         "Issue_x0020_Type":  "Shipping Delays",
         "Sourcing_x0020_Option":  "Member Communication",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Patient Slippers"
+        "Cross_x0020_Reference_x0020_Prod":  "Patient Slippers",
+        "HT_x0020_Recommendation":  "?Please work with your LSL representative for supply updates and product substitutions if necessary. "
     },
     {
         "Priority":  "Low",
@@ -1092,7 +1164,8 @@
         "Issue_x0020_Type":  "Labor Shortages, Raw Material Shortage",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "No cross posted"
+        "Cross_x0020_Reference_x0020_Prod":  "No cross posted",
+        "HT_x0020_Recommendation":  "?Refer to listed substitutions provided by Medline. Please work with your local Medline representative for supply updates and product substitutions. "
     },
     {
         "Priority":  "High",
@@ -1107,7 +1180,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations",
         "Sourcing_x0020_Option":  "Purchase Allocation, Contracted Alternatives, Non-Contracted Alternatives",
         "Resources":  "??Award Summary Clinical Resource - Prefilled Flush Syringe Conservation - FDAClinical Resource - Prefilled Flush Cross Conversion Tool",
-        "Cross_x0020_Reference_x0020_Prod":  "Prefilled Flush Syringes"
+        "Cross_x0020_Reference_x0020_Prod":  "Prefilled Flush Syringes",
+        "HT_x0020_Recommendation":  "?HT members should reach out to Local BD MDS Sales Reps to escalate drop shipment orders as needed, so HT members maintain inventory."
     },
     {
         "Priority":  "Medium",
@@ -1122,11 +1196,12 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Pulse Oximetry and Capnography Equipment and Supplies"
+        "Cross_x0020_Reference_x0020_Prod":  "Pulse Oximetry and Capnography Equipment and Supplies",
+        "HT_x0020_Recommendation":  "?Please work with your local Masimo representative for supply updates and recommended alternatives. "
     },
     {
         "Priority":  "High",
-        "Modified":  "2022-05-16",
+        "Modified":  "2022-06-23",
         "DateReported":  "2022-05-13",
         "Category":  "2022-05-13",
         "Contract_x0020_No":  "58814",
@@ -1137,7 +1212,8 @@
         "Issue_x0020_Type":  "Component Disruption",
         "Sourcing_x0020_Option":  "Contracted Alternatives",
         "Resources":  "?Award SummaryClinical Resource - Vascular Closure Evidence SummaryClinical Resource - Vascular Closure Evidence PFS",
-        "Cross_x0020_Reference_x0020_Prod":  "Radial Access, Interventional, and Closure Devices"
+        "Cross_x0020_Reference_x0020_Prod":  "Radial Access, Interventional, and Closure Devices",
+        "HT_x0020_Recommendation":  "Please work with your Boston Scientific representative to stay up to date on orders or find suitable alternatives."
     },
     {
         "Priority":  "Low",
@@ -1152,7 +1228,8 @@
         "Issue_x0020_Type":  "Manufacturing Delays from Third Party Vendor",
         "Sourcing_x0020_Option":  "Member Communication, Clinical Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Radiopharmaceuticals - Unit Dose"
+        "Cross_x0020_Reference_x0020_Prod":  "Radiopharmaceuticals - Unit Dose",
+        "HT_x0020_Recommendation":  "?Contact your local pharmacy for specific supply questions and FDA-approved alternate options for your procedures."
     },
     {
         "Priority":  "Low",
@@ -1167,7 +1244,8 @@
         "Issue_x0020_Type":  "Manufacturing Delays from Third Party Vendor",
         "Sourcing_x0020_Option":  "Clinical Alternatives, Member Communication",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Radiopharmaceuticals - Unit Dose"
+        "Cross_x0020_Reference_x0020_Prod":  "Radiopharmaceuticals - Unit Dose",
+        "HT_x0020_Recommendation":  "?Contact your local pharmacy for specific supply questions and FDA-approved alternate options for your procedures."
     },
     {
         "Priority":  "Medium",
@@ -1182,7 +1260,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations",
         "Sourcing_x0020_Option":  "Member Communication",
         "Resources":  "?Award SummaryClinical Resource - Ventilator PFS?",
-        "Cross_x0020_Reference_x0020_Prod":  "No cross posted"
+        "Cross_x0020_Reference_x0020_Prod":  "No cross posted",
+        "HT_x0020_Recommendation":  "Please work with your local US Med-Equip representative for supply updates and recommendations."
     },
     {
         "Priority":  "Medium",
@@ -1197,7 +1276,8 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Purchase Allocation",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Respiratory Heaters and Accessories"
+        "Cross_x0020_Reference_x0020_Prod":  "Respiratory Heaters and Accessories",
+        "HT_x0020_Recommendation":  "Please work with your local Medline representative for supply updates and product substitutions if necessary."
     },
     {
         "Priority":  "Retire/Resolved",
@@ -1212,7 +1292,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations",
         "Sourcing_x0020_Option":  "Purchase Allocation, Contracted Alternatives",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Respiratory, Lung Expansion Devices"
+        "Cross_x0020_Reference_x0020_Prod":  "Respiratory, Lung Expansion Devices",
+        "HT_x0020_Recommendation":  "Please work with your local Medline representative for supply updates and product substitutions if necessary."
     },
     {
         "Priority":  "Medium",
@@ -1227,14 +1308,15 @@
         "Issue_x0020_Type":  "Not Selected",
         "Sourcing_x0020_Option":  "Not Selected",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Respiratory, Lung Expansion Devices"
+        "Cross_x0020_Reference_x0020_Prod":  "Respiratory, Lung Expansion Devices",
+        "HT_x0020_Recommendation":  "?Please work with you local Smiths Medical representative for supply updates and product substitutions if necessary. "
     },
     {
         "Priority":  "High",
-        "Modified":  "2022-02-17",
+        "Modified":  "2022-06-23",
         "DateReported":  "2021-10-26",
         "Category":  "2021-10-26",
-        "Contract_x0020_No":  "778",
+        "Contract_x0020_No":  "?778",
         "Supplier":  "B Braun",
         "Product_x0020_Impacted":  "Various SKUs",
         "Communication_x0020_Link":  "No official letter communicated. Information received via supplier.",
@@ -1242,7 +1324,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations",
         "Sourcing_x0020_Option":  "Contracted Alternatives",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Catheters - IV Safety"
+        "Cross_x0020_Reference_x0020_Prod":  "?Catheters - IV Safety",
+        "HT_x0020_Recommendation":  "Please work with your chosen supplier for supply updates and product substitutions if necessary."
     },
     {
         "Priority":  "Low",
@@ -1257,7 +1340,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage, Manufacturing Delays from Third Party Vendor, Shipping Delays",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Skin Care Products"
+        "Cross_x0020_Reference_x0020_Prod":  "Skin Care Products",
+        "HT_x0020_Recommendation":  "?Review recommended substitutions provided in this communication. Please work with your local Medline representative for supply updates or recommended product substitutions. "
     },
     {
         "Priority":  "High",
@@ -1272,14 +1356,15 @@
         "Issue_x0020_Type":  "Quality Concerns",
         "Sourcing_x0020_Option":  "Contracted Alternatives",
         "Resources":  "?Award SummaryClinical Resource - PFSClinical Resource - Clinical Evidence Summary",
-        "Cross_x0020_Reference_x0020_Prod":  "Skin Prep Applicators and Swabsticks"
+        "Cross_x0020_Reference_x0020_Prod":  "Skin Prep Applicators and Swabsticks",
+        "HT_x0020_Recommendation":  "Please work with you local PDI representative for updates."
     },
     {
         "Priority":  "Medium",
-        "Modified":  "2022-05-16",
+        "Modified":  "2022-06-23",
         "DateReported":  "2022-05-13",
         "Category":  "2022-05-13",
-        "Contract_x0020_No":  "980",
+        "Contract_x0020_No":  "?980",
         "Supplier":  "BD",
         "Product_x0020_Impacted":  "ChloraPrep 1 mL single sterile 930480",
         "Communication_x0020_Link":  "UPDATE 5/13 BD Letter May 4",
@@ -1287,7 +1372,8 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Purchase Allocation",
         "Resources":  "?Award SummaryClinical Resource - PFS",
-        "Cross_x0020_Reference_x0020_Prod":  "?Surgical Skin Prep - CHG-Alcohol"
+        "Cross_x0020_Reference_x0020_Prod":  "?Surgical Skin Prep - CHG-Alcohol",
+        "HT_x0020_Recommendation":  "?BD will be offering the BD ChloraPrep FREPP 1.5mL (930299) and the 1 mL single sterile (930480) at the same price."
     },
     {
         "Priority":  "Low",
@@ -1302,11 +1388,12 @@
         "Issue_x0020_Type":  "Manufacturing Delays from Third Party Vendor, Labor Shortages",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier",
         "Resources":  "??Award Summary Clinical Resource - Sharps Safety Education?Clinical Resource - Sharps Container Conservation",
-        "Cross_x0020_Reference_x0020_Prod":  "Containers - Sharps - Disposable and Hardware"
+        "Cross_x0020_Reference_x0020_Prod":  "Containers - Sharps - Disposable and Hardware",
+        "HT_x0020_Recommendation":  "Please work with your Cardinal Health sales representative to identify suggested alternatives from the products that have remained in production. Cardinal will be able to take on new business and additional volumes in March 2022."
     },
     {
         "Priority":  "Retire/Resolved",
-        "Modified":  "2022-02-16",
+        "Modified":  "2022-06-23",
         "DateReported":  "2021-10-26",
         "Category":  "2021-10-26",
         "Contract_x0020_No":  "560405616277371?",
@@ -1317,7 +1404,8 @@
         "Issue_x0020_Type":  "Not Selected",
         "Sourcing_x0020_Option":  "Not Selected",
         "Resources":  "?Award SummaryClinical Resource - Clinical Evidence",
-        "Cross_x0020_Reference_x0020_Prod":  "Sterile Water"
+        "Cross_x0020_Reference_x0020_Prod":  "Sterile Water",
+        "HT_x0020_Recommendation":  "?No issues at present."
     },
     {
         "Priority":  "Critical",
@@ -1332,7 +1420,8 @@
         "Issue_x0020_Type":  "Equipment Disruption, Labor Shortages",
         "Sourcing_x0020_Option":  "Member Communication, Clinical Alternatives",
         "Resources":  "??Award SummaryClinical Resource - Suction Canister Conservation",
-        "Cross_x0020_Reference_x0020_Prod":  "Suction Canisters - Liners and Related Supplies"
+        "Cross_x0020_Reference_x0020_Prod":  "Suction Canisters - Liners and Related Supplies",
+        "HT_x0020_Recommendation":  "?Please work with your local Cardinal representative for supply updates."
     },
     {
         "Priority":  "High",
@@ -1347,11 +1436,12 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Non-Contracted Alternatives, Spot Buy, Purchase Allocation",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Suction Tubing \u0026 Tips (Yankauers - Frazier - Poole)"
+        "Cross_x0020_Reference_x0020_Prod":  "Suction Tubing \u0026 Tips (Yankauers - Frazier - Poole)",
+        "HT_x0020_Recommendation":  "?Please work with your local Medline representative for supply updates."
     },
     {
         "Priority":  "High",
-        "Modified":  "2022-02-11",
+        "Modified":  "2022-06-23",
         "DateReported":  "2021-12-10",
         "Category":  "2021-12-10",
         "Contract_x0020_No":  "6935",
@@ -1361,8 +1451,9 @@
         "Description":  "O\u0026M Halyard is initiating an order management on a subset of facemask products effective December 6, 2021 due to an extended demand for face masks.",
         "Issue_x0020_Type":  "Not Selected",
         "Sourcing_x0020_Option":  "Not Selected",
-        "Resources":  "Award SummaryClinical Resource - Differentiating Masks?",
-        "Cross_x0020_Reference_x0020_Prod":  "Surgical Masks - Procedural and Facial Protection"
+        "Resources":  "Award SummaryAward SummaryClinical Resource - Differentiating Masks?",
+        "Cross_x0020_Reference_x0020_Prod":  "Surgical Masks - Procedural and Facial Protection",
+        "HT_x0020_Recommendation":  "?Please work with your local O\u0026M Halyard representative for supply updates."
     },
     {
         "Priority":  "Medium",
@@ -1377,7 +1468,8 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges, Demand Fluctuations",
         "Sourcing_x0020_Option":  "Clinical Alternatives",
         "Resources":  "?Award SummaryClinical Resource - PFS?",
-        "Cross_x0020_Reference_x0020_Prod":  "No cross posted"
+        "Cross_x0020_Reference_x0020_Prod":  "No cross posted",
+        "HT_x0020_Recommendation":  "?Please work with your local 3M representative for supply updates. "
     },
     {
         "Priority":  "Low",
@@ -1392,22 +1484,24 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges, Shipping Delays",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Tape - Surgical and Specialty Bandages"
+        "Cross_x0020_Reference_x0020_Prod":  "Tape - Surgical and Specialty Bandages",
+        "HT_x0020_Recommendation":  "?See substitutions provided in letter."
     },
     {
-        "Priority":  "Medium",
-        "Modified":  "2022-05-16",
-        "DateReported":  "2022-05-13",
-        "Category":  "2022-05-13",
+        "Priority":  "Low",
+        "Modified":  "2022-06-23",
+        "DateReported":  "2022-06-07",
+        "Category":  "2022-06-07",
         "Contract_x0020_No":  "??496",
         "Supplier":  "Zimmer",
         "Product_x0020_Impacted":  "Multiple SKUs impacted, see letter for alternatives",
-        "Communication_x0020_Link":  "?Zimmer Biomet Letter",
-        "Description":  "UPDATE 5/13: Zimmer Biomet is experiencing a rolling backorder on multiple tourniquet cuffs.",
+        "Communication_x0020_Link":  "Zimmer Letter - 6/2022Zimmer Letter - 9/2021",
+        "Description":  "UPDATE 6/7: Zimmer provided an updated letter with updated resolution time of Q4. Please see letter for impacted SKUs. Zimmer is having a rolling backorder on a number of their tourniquet cuffs.  Zimmer recommended alternatives will be cost neutral.  Please see attached document for additional information.\n\nUPDATE 5/13: Zimmer Biomet is experiencing a rolling backorder on multiple tourniquet cuffs.",
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier, Non-Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "??Tourniquets, Pneumatic, Equipment and Supplies"
+        "Cross_x0020_Reference_x0020_Prod":  "??Tourniquets, Pneumatic, Equipment and Supplies",
+        "HT_x0020_Recommendation":  "?See alternative products provided in supplier letter."
     },
     {
         "Priority":  "Medium",
@@ -1422,11 +1516,12 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Adhesive Dressings and Securement Devices"
+        "Cross_x0020_Reference_x0020_Prod":  "Adhesive Dressings and Securement Devices",
+        "HT_x0020_Recommendation":  "See alternative products provided in supplier letter."
     },
     {
         "Priority":  "Medium",
-        "Modified":  "2022-02-17",
+        "Modified":  "2022-06-23",
         "DateReported":  "2021-10-26",
         "Category":  "2021-10-26",
         "Contract_x0020_No":  "361",
@@ -1437,7 +1532,8 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Member Communication, Clinical Alternatives",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Trays - Anesthesia and Pain Management"
+        "Cross_x0020_Reference_x0020_Prod":  "Trays - Anesthesia and Pain Management",
+        "HT_x0020_Recommendation":  "?Communicate the supplier letter to your impacted personnel."
     },
     {
         "Priority":  "Low",
@@ -1452,7 +1548,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage, Shipping Delays, Demand Fluctuations, Labor Shortages",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Underpads and Adult Briefs (Disposable)"
+        "Cross_x0020_Reference_x0020_Prod":  "Underpads and Adult Briefs (Disposable)",
+        "HT_x0020_Recommendation":  "?Please work with your local Medline representative for supply updates. "
     },
     {
         "Priority":  "Retire/Resolved",
@@ -1467,11 +1564,12 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Member Communication, Contracted Alternatives",
         "Resources":  "?Award? SummaryClinical Resource - Vascular Closure Clinical EvidenceClinical Resource - Vascular Closure PFS",
-        "Cross_x0020_Reference_x0020_Prod":  "Vascular Closure Devices"
+        "Cross_x0020_Reference_x0020_Prod":  "Vascular Closure Devices",
+        "HT_x0020_Recommendation":  ""
     },
     {
         "Priority":  "Retire/Resolved",
-        "Modified":  "2022-02-16",
+        "Modified":  "2022-06-23",
         "DateReported":  "0001-01-01",
         "Category":  "0001-01-01",
         "Contract_x0020_No":  "6022",
@@ -1482,14 +1580,15 @@
         "Issue_x0020_Type":  "Not Selected",
         "Sourcing_x0020_Option":  "Not Selected",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  ""
+        "Cross_x0020_Reference_x0020_Prod":  "",
+        "HT_x0020_Recommendation":  "?Work with your local Greiner representative for supply updates. "
     },
     {
         "Priority":  "Retire/Resolved",
-        "Modified":  "2022-02-16",
+        "Modified":  "2022-06-23",
         "DateReported":  "0001-01-01",
         "Category":  "0001-01-01",
-        "Contract_x0020_No":  "214",
+        "Contract_x0020_No":  "?214",
         "Supplier":  "Bard",
         "Product_x0020_Impacted":  "A119214M",
         "Communication_x0020_Link":  "",
@@ -1497,14 +1596,15 @@
         "Issue_x0020_Type":  "Not Selected",
         "Sourcing_x0020_Option":  "Non-Contracted Alternatives",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  ""
+        "Cross_x0020_Reference_x0020_Prod":  "",
+        "HT_x0020_Recommendation":  "?Please work with you local BD/Bard representative for supply updates and recommended product substitutions if necessary. "
     },
     {
         "Priority":  "Retire/Resolved",
-        "Modified":  "2022-02-16",
+        "Modified":  "2022-06-23",
         "DateReported":  "0001-01-01",
         "Category":  "0001-01-01",
-        "Contract_x0020_No":  "214",
+        "Contract_x0020_No":  "?214",
         "Supplier":  "Bard",
         "Product_x0020_Impacted":  "A339416A",
         "Communication_x0020_Link":  "",
@@ -1512,7 +1612,8 @@
         "Issue_x0020_Type":  "Not Selected",
         "Sourcing_x0020_Option":  "Not Selected",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  ""
+        "Cross_x0020_Reference_x0020_Prod":  "",
+        "HT_x0020_Recommendation":  "Please work with you local BD/Bard representative for supply updates and recommended product substitutions if necessary."
     },
     {
         "Priority":  "Retire/Resolved",
@@ -1527,7 +1628,8 @@
         "Issue_x0020_Type":  "Not Selected",
         "Sourcing_x0020_Option":  "Not Selected",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  ""
+        "Cross_x0020_Reference_x0020_Prod":  "",
+        "HT_x0020_Recommendation":  ""
     },
     {
         "Priority":  "Retire/Resolved",
@@ -1542,7 +1644,8 @@
         "Issue_x0020_Type":  "Not Selected",
         "Sourcing_x0020_Option":  "Not Selected",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Safety Blood Collection"
+        "Cross_x0020_Reference_x0020_Prod":  "Safety Blood Collection",
+        "HT_x0020_Recommendation":  ""
     },
     {
         "Priority":  "Retire/Resolved",
@@ -1557,7 +1660,8 @@
         "Issue_x0020_Type":  "Not Selected",
         "Sourcing_x0020_Option":  "Not Selected",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Pumps - Solutions and Sets"
+        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Pumps - Solutions and Sets",
+        "HT_x0020_Recommendation":  "Please work with your local Smiths Medical representative for supply updates or product recommendations."
     },
     {
         "Priority":  "Retire/Resolved",
@@ -1572,7 +1676,8 @@
         "Issue_x0020_Type":  "Not Selected",
         "Sourcing_x0020_Option":  "Not Selected",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "?Pulse Oximetry Capnography Equipment and Supplies"
+        "Cross_x0020_Reference_x0020_Prod":  "?Pulse Oximetry Capnography Equipment and Supplies",
+        "HT_x0020_Recommendation":  "?Please work with your local Masimo representative for supply updates and recommended alternatives. "
     },
     {
         "Priority":  "Retire/Resolved",
@@ -1587,7 +1692,8 @@
         "Issue_x0020_Type":  "Not Selected",
         "Sourcing_x0020_Option":  "Not Selected",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Pumps, Sets, Solutions and Needless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Pumps, Sets, Solutions and Needless Products",
+        "HT_x0020_Recommendation":  ""
     },
     {
         "Priority":  "Retire/Resolved",
@@ -1602,7 +1708,8 @@
         "Issue_x0020_Type":  "Labor Shortages, Equipment Disruption",
         "Sourcing_x0020_Option":  "Member Communication",
         "Resources":  "?Award SummaryClinical Resource - Suction Canister Conservation",
-        "Cross_x0020_Reference_x0020_Prod":  "?Suction Canisters - Liners and Related Supplies"
+        "Cross_x0020_Reference_x0020_Prod":  "?Suction Canisters - Liners and Related Supplies",
+        "HT_x0020_Recommendation":  "Please work with your local Cardinal representative for supply updates."
     },
     {
         "Priority":  "Retire/Resolved",
@@ -1617,7 +1724,8 @@
         "Issue_x0020_Type":  "Not Selected",
         "Sourcing_x0020_Option":  "Not Selected",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  ""
+        "Cross_x0020_Reference_x0020_Prod":  "",
+        "HT_x0020_Recommendation":  ""
     },
     {
         "Priority":  "Retire/Resolved",
@@ -1632,7 +1740,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations",
         "Sourcing_x0020_Option":  "Contracted Alternatives",
         "Resources":  "?Award SummaryClinical Resource - Blood Conservation",
-        "Cross_x0020_Reference_x0020_Prod":  ""
+        "Cross_x0020_Reference_x0020_Prod":  "",
+        "HT_x0020_Recommendation":  "Consider blood conservation strategies."
     },
     {
         "Priority":  "Retire/Resolved",
@@ -1647,7 +1756,8 @@
         "Issue_x0020_Type":  "Not Selected",
         "Sourcing_x0020_Option":  "Not Selected",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Pumps Solution Set and Needles Products"
+        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Pumps Solution Set and Needles Products",
+        "HT_x0020_Recommendation":  ""
     },
     {
         "Priority":  "Retire/Resolved",
@@ -1662,7 +1772,8 @@
         "Issue_x0020_Type":  "Not Selected",
         "Sourcing_x0020_Option":  "Not Selected",
         "Resources":  "?Award SummaryClinical Resource - Heel Warmer Clinical Evidence?",
-        "Cross_x0020_Reference_x0020_Prod":  ""
+        "Cross_x0020_Reference_x0020_Prod":  "",
+        "HT_x0020_Recommendation":  "Please work with your local Cardinal representative for supply updates."
     },
     {
         "Priority":  "Retire/Resolved",
@@ -1677,7 +1788,8 @@
         "Issue_x0020_Type":  "Not Selected",
         "Sourcing_x0020_Option":  "Not Selected",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "?Safety Blood Collection"
+        "Cross_x0020_Reference_x0020_Prod":  "?Safety Blood Collection",
+        "HT_x0020_Recommendation":  ""
     },
     {
         "Priority":  "Retire/Resolved",
@@ -1692,11 +1804,12 @@
         "Issue_x0020_Type":  "Not Selected",
         "Sourcing_x0020_Option":  "Not Selected",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Pumps - Solutions and Sets"
+        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Pumps - Solutions and Sets",
+        "HT_x0020_Recommendation":  "Please work with your local Smiths Medical representative for supply updates or product recommendations."
     },
     {
         "Priority":  "Retire/Resolved",
-        "Modified":  "2022-02-16",
+        "Modified":  "2022-06-23",
         "DateReported":  "0001-01-01",
         "Category":  "0001-01-01",
         "Contract_x0020_No":  "807",
@@ -1707,7 +1820,8 @@
         "Issue_x0020_Type":  "Not Selected",
         "Sourcing_x0020_Option":  "Not Selected",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  ""
+        "Cross_x0020_Reference_x0020_Prod":  "",
+        "HT_x0020_Recommendation":  ""
     },
     {
         "Priority":  "Medium",
@@ -1722,7 +1836,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage, Labor Shortages",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Non-Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "Balloons - Cardiac"
+        "Cross_x0020_Reference_x0020_Prod":  "Balloons - Cardiac",
+        "HT_x0020_Recommendation":  "?Please work with your local Abbott Medical Representative for supply updates or product recommendations. "
     },
     {
         "Priority":  "Retire/Resolved",
@@ -1737,7 +1852,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage, Labor Shortages",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Non-Contracted Alternatives",
         "Resources":  "?Award Summary?Clinical Evidence - Balloons PeripheralPFS - Balloons Peripheral",
-        "Cross_x0020_Reference_x0020_Prod":  "?Balloons - Peripheral"
+        "Cross_x0020_Reference_x0020_Prod":  "?Balloons - Peripheral",
+        "HT_x0020_Recommendation":  "?Please work with your local Abbott Medical Representative for supply updates or product recommendations. "
     },
     {
         "Priority":  "High",
@@ -1752,7 +1868,8 @@
         "Issue_x0020_Type":  "Component Disruption",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Non-Contracted Alternatives",
         "Resources":  "??Award SummaryClinical Alternatives - Blood and Fluid WarmingClinical Resource - Blood and Fluid Warming PFSClinical Resource - Patient Temperature Management PFSClinical Resource - Patient Temperature Management Evidence",
-        "Cross_x0020_Reference_x0020_Prod":  "?Blood/Fluid Warming Equipment and Supplies"
+        "Cross_x0020_Reference_x0020_Prod":  "?Blood/Fluid Warming Equipment and Supplies",
+        "HT_x0020_Recommendation":  "?Please work with your local 3M Representative for supply updates and product recommendations. "
     },
     {
         "Priority":  "Medium",
@@ -1767,7 +1884,8 @@
         "Issue_x0020_Type":  "Labor Shortages, Raw Material Shortage",
         "Sourcing_x0020_Option":  "Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Cardiac Diagnostic and Interventional Guidewires"
+        "Cross_x0020_Reference_x0020_Prod":  "?Cardiac Diagnostic and Interventional Guidewires",
+        "HT_x0020_Recommendation":  "?Please work with your local Abbott Medical Representative for supply updates or product recommendations. "
     },
     {
         "Priority":  "High",
@@ -1782,7 +1900,8 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges, Demand Fluctuations",
         "Sourcing_x0020_Option":  "Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Carotid Stents and Embolic Protection"
+        "Cross_x0020_Reference_x0020_Prod":  "?Carotid Stents and Embolic Protection",
+        "HT_x0020_Recommendation":  "?Please work with your local Abbott Medical Representative for supply updates or product recommendations. "
     },
     {
         "Priority":  "Low",
@@ -1797,7 +1916,8 @@
         "Issue_x0020_Type":  "Manufacturing Delays from Third Party Vendor",
         "Sourcing_x0020_Option":  "Non-Contracted Alternatives, Clinical Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?No cross posted"
+        "Cross_x0020_Reference_x0020_Prod":  "?No cross posted",
+        "HT_x0020_Recommendation":  "?Please work with your local Medline representative for supply updates or substitute product recommendations. "
     },
     {
         "Priority":  "Medium",
@@ -1812,7 +1932,8 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Purchase Allocation, Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Respiratory, Oxygen Delivery Devices"
+        "Cross_x0020_Reference_x0020_Prod":  "?Respiratory, Oxygen Delivery Devices",
+        "HT_x0020_Recommendation":  "?Please work with your local Medline representative for supply updates and product substitutions if necessary. "
     },
     {
         "Priority":  "Medium",
@@ -1827,11 +1948,12 @@
         "Issue_x0020_Type":  "Raw Material Shortage, Labor Shortages",
         "Sourcing_x0020_Option":  "Purchase Allocation, Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Leads and Accessories"
+        "Cross_x0020_Reference_x0020_Prod":  "?Leads and Accessories",
+        "HT_x0020_Recommendation":  "?Please work with your local Abbott Medical Representative for supply updates or product recommendations. "
     },
     {
         "Priority":  "Retire/Resolved",
-        "Modified":  "2022-05-16",
+        "Modified":  "2022-06-23",
         "DateReported":  "2022-05-13",
         "Category":  "2022-05-13",
         "Contract_x0020_No":  "?3280",
@@ -1841,8 +1963,9 @@
         "Description":  "Abbott (#3333, #3280, and #3301) has been impacted by COVID?s effects on the global economy as a result of raw material constraints, inflation, and other economic challenges associated with workforce health and well-being. The products listed on the backorder report are rolling backorders.",
         "Issue_x0020_Type":  "Raw Material Shortage, Labor Shortages",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Non-Contracted Alternatives",
-        "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Non-Cardiac Stents"
+        "Resources":  "?Award Summary?",
+        "Cross_x0020_Reference_x0020_Prod":  "?Non-Cardiac Stents",
+        "HT_x0020_Recommendation":  "?Please work with your local Abbott Medical Representative for supply updates or product recommendations. "
     },
     {
         "Priority":  "Medium",
@@ -1857,7 +1980,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage, Labor Shortages",
         "Sourcing_x0020_Option":  "Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Sheaths and Introducers - Vascular"
+        "Cross_x0020_Reference_x0020_Prod":  "?Sheaths and Introducers - Vascular",
+        "HT_x0020_Recommendation":  "?Please work with your local Abbott Medical Representative for supply updates or product recommendations. "
     },
     {
         "Priority":  "Medium",
@@ -1872,7 +1996,8 @@
         "Issue_x0020_Type":  "Labor Shortages, Raw Material Shortage",
         "Sourcing_x0020_Option":  "Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Stents, Coronary, Bare Metal"
+        "Cross_x0020_Reference_x0020_Prod":  "?Stents, Coronary, Bare Metal",
+        "HT_x0020_Recommendation":  "?Please work with your local Abbott Medical Representative for supply updates or product recommendations."
     },
     {
         "Priority":  "High",
@@ -1887,7 +2012,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage, Shipping Delays",
         "Sourcing_x0020_Option":  "Clinical Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Suction Tubing \u0026 Tips (Yankauers - Frazier - Poole)"
+        "Cross_x0020_Reference_x0020_Prod":  "?Suction Tubing \u0026 Tips (Yankauers - Frazier - Poole)",
+        "HT_x0020_Recommendation":  "?Please work with your local Cardinal representative for supply updates. "
     },
     {
         "Priority":  "Retire/Resolved",
@@ -1902,7 +2028,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Enteral Feeding Tubes - Adults"
+        "Cross_x0020_Reference_x0020_Prod":  "?Enteral Feeding Tubes - Adults",
+        "HT_x0020_Recommendation":  "?Please work with your local Avanos Sales Representative for supply updates and alternatives."
     },
     {
         "Priority":  "Medium",
@@ -1917,7 +2044,8 @@
         "Issue_x0020_Type":  "Manufacturing Delays from Third Party Vendor",
         "Sourcing_x0020_Option":  "Member Communication, Non-Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?No Cross Provided"
+        "Cross_x0020_Reference_x0020_Prod":  "?No Cross Provided",
+        "HT_x0020_Recommendation":  "?Please work with your Olympus sales representative for updates on orders."
     },
     {
         "Priority":  "Medium",
@@ -1932,7 +2060,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations",
         "Sourcing_x0020_Option":  "Clinical Alternatives, Purchase Allocation",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "?Please work with your local Baxter sales representative for any questions or issues. "
     },
     {
         "Priority":  "Medium",
@@ -1947,7 +2076,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Nutritionals and Formula - Infant and Pediatric"
+        "Cross_x0020_Reference_x0020_Prod":  "?Nutritionals and Formula - Infant and Pediatric",
+        "HT_x0020_Recommendation":  "?Please order the functional replacement for impacted product Gerber Good Start GentlePro Tetra Pack, Product Code 5000056892"
     },
     {
         "Priority":  "Critical",
@@ -1962,7 +2092,8 @@
         "Issue_x0020_Type":  "Labor Shortages, Manufacturing Delays from Third Party Vendor",
         "Sourcing_x0020_Option":  "Member Communication, Clinical Alternatives",
         "Resources":  "?Award SummaryClinical Resource - AABB Extending B?lood Supply TipsClinical Resource - Blood Conservation",
-        "Cross_x0020_Reference_x0020_Prod":  "?No cross posted"
+        "Cross_x0020_Reference_x0020_Prod":  "?No cross posted",
+        "HT_x0020_Recommendation":  "??Please refer to letter for additional information, and to resources around blood conservation strategies."
     },
     {
         "Priority":  "High",
@@ -1977,7 +2108,8 @@
         "Issue_x0020_Type":  "Labor Shortages, Manufacturing Delays from Third Party Vendor",
         "Sourcing_x0020_Option":  "Clinical Alternatives, Member Communication",
         "Resources":  "?Award Summary?Clinical Resource - AABB Extending Blood Supply Tips",
-        "Cross_x0020_Reference_x0020_Prod":  "?No cross posted."
+        "Cross_x0020_Reference_x0020_Prod":  "?No cross posted.",
+        "HT_x0020_Recommendation":  "????Please refer to letter for additional information, and to resources around blood conservation strategies."
     },
     {
         "Priority":  "Medium",
@@ -1992,7 +2124,8 @@
         "Issue_x0020_Type":  "Product Discontinuation",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Alternatives Recommended by Supplier",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Peripheral Interventional Drain Catheters"
+        "Cross_x0020_Reference_x0020_Prod":  "?Peripheral Interventional Drain Catheters",
+        "HT_x0020_Recommendation":  "??Please work with your local Boston Scientific representative for supply updates and recommendations. "
     },
     {
         "Priority":  "Critical",
@@ -2007,7 +2140,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations, Manufacturing Delays from Third Party Vendor",
         "Sourcing_x0020_Option":  "Clinical Alternatives, Alternatives Recommended by Supplier",
         "Resources":  "??Award SummaryClinical Resource - Alternative? PracticesClinical Resource - Tis-U-Trap ReviewClinical Resource - Manual Vacuum AspiratorClinical Resource - Manual Vacuum Aspirator Comparison",
-        "Cross_x0020_Reference_x0020_Prod":  "?No cross posted"
+        "Cross_x0020_Reference_x0020_Prod":  "?No cross posted",
+        "HT_x0020_Recommendation":  "Refer to alternative products provided in supplier letter.??Please work with your Olympus sales representative for updates on orders."
     },
     {
         "Priority":  "Low",
@@ -2022,7 +2156,8 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Alternatives Recommended by Supplier",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Kits - Suction and Trach Care and Related Supplies"
+        "Cross_x0020_Reference_x0020_Prod":  "?Kits - Suction and Trach Care and Related Supplies",
+        "HT_x0020_Recommendation":  "?Please work with your local Medline representative for supply updates or substitute product recommendations."
     },
     {
         "Priority":  "Medium",
@@ -2037,7 +2172,8 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Respiratory, Ventilator Circuits"
+        "Cross_x0020_Reference_x0020_Prod":  "?Respiratory, Ventilator Circuits",
+        "HT_x0020_Recommendation":  "?Please work with your local Medline representative for supply updates and product substitutions if necessary. "
     },
     {
         "Priority":  "Low",
@@ -2052,7 +2188,8 @@
         "Issue_x0020_Type":  "Manufacturing Delays from Third Party Vendor",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier, Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?No cross posted"
+        "Cross_x0020_Reference_x0020_Prod":  "?No cross posted",
+        "HT_x0020_Recommendation":  "?Please work with your local Merit sales representative. "
     },
     {
         "Priority":  "Medium",
@@ -2067,7 +2204,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Alternatives Recommended by Supplier",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?No cross posted"
+        "Cross_x0020_Reference_x0020_Prod":  "?No cross posted",
+        "HT_x0020_Recommendation":  "?Please work with your local blood bank business manager or customer service at (855) 466-8267."
     },
     {
         "Priority":  "Low",
@@ -2082,7 +2220,8 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Alternatives Recommended by Supplier",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Perfusion Supplies"
+        "Cross_x0020_Reference_x0020_Prod":  "?Perfusion Supplies",
+        "HT_x0020_Recommendation":  "?Please work with your local Terumo sales representative for supply updates."
     },
     {
         "Priority":  "Medium",
@@ -2097,7 +2236,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Purchase Allocation",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "?Please work with your local Baxter sales representative for any questions or issues. "
     },
     {
         "Priority":  "Medium",
@@ -2112,7 +2252,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations",
         "Sourcing_x0020_Option":  "Purchase Allocation",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "??Infusion Pumps, Sets, Solutions and Needleless Products "
+        "Cross_x0020_Reference_x0020_Prod":  "??Infusion Pumps, Sets, Solutions and Needleless Products ",
+        "HT_x0020_Recommendation":  "?Please work with your local Baxter sales representative for any questions or issues. "
     },
     {
         "Priority":  "Medium",
@@ -2127,7 +2268,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Alternatives Recommended by Supplier",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Electrosurgery - Monopolar, Bipolar \u0026 Argon Enhanced"
+        "Cross_x0020_Reference_x0020_Prod":  "?Electrosurgery - Monopolar, Bipolar \u0026 Argon Enhanced",
+        "HT_x0020_Recommendation":  "?Please work with your local Medtronic sales representative "
     },
     {
         "Priority":  "Critical",
@@ -2142,7 +2284,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage",
         "Sourcing_x0020_Option":  "Purchase Allocation",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "??Enteral Feeding Pumps, Sets, Feeding Tubes and Related Supplies"
+        "Cross_x0020_Reference_x0020_Prod":  "??Enteral Feeding Pumps, Sets, Feeding Tubes and Related Supplies",
+        "HT_x0020_Recommendation":  "?Please work with your local Cardinal representative for supply updates. "
     },
     {
         "Priority":  "Medium",
@@ -2157,7 +2300,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage",
         "Sourcing_x0020_Option":  "Purchase Allocation, Non-Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Port Disinfection Caps"
+        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Port Disinfection Caps",
+        "HT_x0020_Recommendation":  "?Please work with your local ICU Medical product representative."
     },
     {
         "Priority":  "Medium",
@@ -2172,7 +2316,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage, Packaging Issue, Manufacturing Delays from Third Party Vendor",
         "Sourcing_x0020_Option":  "Purchase Allocation",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Kits - Suction and Trach Care and Related Supplies"
+        "Cross_x0020_Reference_x0020_Prod":  "?Kits - Suction and Trach Care and Related Supplies",
+        "HT_x0020_Recommendation":  "?Please work with your local Cardinal representative for supply updates or substitute product recommendations. "
     },
     {
         "Priority":  "Medium",
@@ -2187,7 +2332,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage, Demand Fluctuations",
         "Sourcing_x0020_Option":  "Purchase Allocation",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?PICCs - Neonatal"
+        "Cross_x0020_Reference_x0020_Prod":  "?PICCs - Neonatal",
+        "HT_x0020_Recommendation":  "?Please work with your local Cardinal representative for supply updates. "
     },
     {
         "Priority":  "Medium",
@@ -2202,7 +2348,8 @@
         "Issue_x0020_Type":  "Manufacturing Delays from Third Party Vendor, Labor Shortages, Raw Material Shortage, Packaging Issue",
         "Sourcing_x0020_Option":  "Clinical Alternatives",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "?Neonatal - Enteral Feeding Tubes and Accessories "
+        "Cross_x0020_Reference_x0020_Prod":  "?Neonatal - Enteral Feeding Tubes and Accessories ",
+        "HT_x0020_Recommendation":  "?Please work with your local Cardinal representative for supply updates. "
     },
     {
         "Priority":  "High",
@@ -2217,7 +2364,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage, Manufacturing Delays from Third Party Vendor",
         "Sourcing_x0020_Option":  "Member Communication, Purchase Allocation",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Neonatal UV Catheters"
+        "Cross_x0020_Reference_x0020_Prod":  "?Neonatal UV Catheters",
+        "HT_x0020_Recommendation":  "?Please work with your local Cardinal representative for supply updates. "
     },
     {
         "Priority":  "Medium",
@@ -2232,7 +2380,8 @@
         "Issue_x0020_Type":  "Demand Fluctuations",
         "Sourcing_x0020_Option":  "Non-Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Patient Plastic and Bedside Care Items"
+        "Cross_x0020_Reference_x0020_Prod":  "?Patient Plastic and Bedside Care Items",
+        "HT_x0020_Recommendation":  "?Please work with your local Medline representative for supply updates and product substitutions if necessary. "
     },
     {
         "Priority":  "Medium",
@@ -2247,7 +2396,8 @@
         "Issue_x0020_Type":  "Manufacturing Delays from Third Party Vendor, Raw Material Shortage",
         "Sourcing_x0020_Option":  "Contracted Alternatives, Purchase Allocation",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "?Please work with your local Baxter sales representative for any questions or issues. "
     },
     {
         "Priority":  "Medium",
@@ -2262,7 +2412,8 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Non-Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "??Wound Closure Strips \u0026 Benzoin"
+        "Cross_x0020_Reference_x0020_Prod":  "??Wound Closure Strips \u0026 Benzoin",
+        "HT_x0020_Recommendation":  ""
     },
     {
         "Priority":  "High",
@@ -2277,7 +2428,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage",
         "Sourcing_x0020_Option":  "Clinical Alternatives",
         "Resources":  "Award Summary?Clinical Resource - ASPEN Conservation Considerations",
-        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "?Please work with your local Baxter sales representative for any questions or issues. "
     },
     {
         "Priority":  "Medium",
@@ -2292,7 +2444,8 @@
         "Issue_x0020_Type":  "Raw Material Shortage, Manufacturing Delays from Third Party Vendor",
         "Sourcing_x0020_Option":  "Purchase Allocation, Contracted Alternatives",
         "Resources":  "??Award Summary",
-        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "?Please work with your local Baxter sales representative for any questions or issues. "
     },
     {
         "Priority":  "Medium",
@@ -2307,14 +2460,15 @@
         "Issue_x0020_Type":  "Quality Concerns, Raw Material Shortage",
         "Sourcing_x0020_Option":  "Member Communication, Contracted Alternatives",
         "Resources":  "Award Summary?",
-        "Cross_x0020_Reference_x0020_Prod":  "?Ophthalmology Products and Related Supplies"
+        "Cross_x0020_Reference_x0020_Prod":  "?Ophthalmology Products and Related Supplies",
+        "HT_x0020_Recommendation":  "?Please contact your local Alcon representative if you have any questions."
     },
     {
         "Priority":  "Watch",
-        "Modified":  "2022-06-07",
+        "Modified":  "2022-06-23",
         "DateReported":  "2022-06-03",
         "Category":  "2022-06-03",
-        "Contract_x0020_No":  "??512",
+        "Contract_x0020_No":  "???512",
         "Supplier":  "Molnlycke",
         "Product_x0020_Impacted":  "?M?lnlycke?s Mepitel Ag\ndressings",
         "Communication_x0020_Link":  "?Molnlycke Letter",
@@ -2322,29 +2476,15 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges, Raw Material Shortage",
         "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "?Wound Care Advanced (Full Line)"
-    },
-    {
-        "Priority":  "Low",
-        "Modified":  "2022-06-08",
-        "DateReported":  "2022-06-07",
-        "Category":  "2022-06-07",
-        "Contract_x0020_No":  "??496",
-        "Supplier":  "Zimmer",
-        "Product_x0020_Impacted":  "??See attached letter.",
-        "Communication_x0020_Link":  "?Zimmer Letter",
-        "Description":  "Zimmer is having a rolling backorder on a number of their tourniquet cuffs.  Zimmer recommended alternatives will be cost neutral.  Please see attached document for additional information.",
-        "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
-        "Sourcing_x0020_Option":  "Alternatives Recommended by Supplier",
-        "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "?Tourniquets, Pneumatic, Equipment and Supplies"
+        "Cross_x0020_Reference_x0020_Prod":  "?Wound Care Advanced (Full Line)",
+        "HT_x0020_Recommendation":  "?Your Molnlycke representative can provide you with details about constrained supply on specific products your facility may purchase. "
     },
     {
         "Priority":  "High",
-        "Modified":  "2022-06-14",
+        "Modified":  "2022-06-23",
         "DateReported":  "2022-06-14",
         "Category":  "2022-06-14",
-        "Contract_x0020_No":  "?44256",
+        "Contract_x0020_No":  "??44256",
         "Supplier":  "Baxter",
         "Product_x0020_Impacted":  "??Dobutamine Hydrochloride Injection products and Milrinone Lactate Injection products",
         "Communication_x0020_Link":  "?Baxter Letter",
@@ -2352,14 +2492,15 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Member Communication",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Pumps, Sets, Solutions and Needleless Products"
+        "Cross_x0020_Reference_x0020_Prod":  "?Infusion Pumps, Sets, Solutions and Needleless Products",
+        "HT_x0020_Recommendation":  "???Please work with your local Baxter sales representative for any questions or issues. "
     },
     {
         "Priority":  "High",
-        "Modified":  "2022-06-15",
+        "Modified":  "2022-06-23",
         "DateReported":  "2022-06-15",
         "Category":  "2022-06-15",
-        "Contract_x0020_No":  "42355?",
+        "Contract_x0020_No":  "?42355?",
         "Supplier":  "Ethicon",
         "Product_x0020_Impacted":  "?Patient Return Electrodes",
         "Communication_x0020_Link":  "",
@@ -2367,6 +2508,7 @@
         "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
         "Sourcing_x0020_Option":  "Clinical Alternatives",
         "Resources":  "",
-        "Cross_x0020_Reference_x0020_Prod":  "Electrosurgery - Smoke Evacuation Equipment and Supplies"
+        "Cross_x0020_Reference_x0020_Prod":  "Electrosurgery - Smoke Evacuation Equipment and Supplies",
+        "HT_x0020_Recommendation":  ""
     }
 ]

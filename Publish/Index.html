@@ -7,15 +7,15 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
     <meta http-equiv="X-Content-Type-Options" content="nosniff" />
-    <link crossorgin="anonymous" href="https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css" rel="stylesheet">
-    <link crossorgin="anonymous" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <script crossorgin="anonymous" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js"></script>
+    <link href="./lib/tabulator.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/all.min.css">
+    <script type="text/javascript" src="./lib/jquery.min.js"></script>
+    <script type="text/javascript" src="./lib/tabulator.min.js"></script>
     <script type="text/javascript" src="./lib/xlsx.full.min.js"></script>
     <script type="text/javascript" src="./lib/source.js"></script>
     <script type="text/javascript" src="./lib/source_plain.js"></script>
-    <script crossorgin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
-    <script crossorgin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.20/jspdf.plugin.autotable.min.js"></script>
+    <script type="text/javascript" src="./lib/jspdf.umd.min.js"></script>
+    <script type="text/javascript" src="./lib/jspdf.plugin.autotable.min.js"></script>
     <script type="text/javascript">
         function htmlWrapFormatter(cell, formatterParams, onRendered){
             cell.getElement().style.whiteSpace = "pre-wrap";
@@ -119,13 +119,14 @@
                 { title: "Supplier", field: "Supplier", hozAlign: "left", width: 150, headerFilter: "input", formatter: function(cell, formatterParams, onRendered){var decodedString = decodeURIComponent(cell.getValue()); return "<div style=\"overflow-x:auto\">" + decodedString.replace(/\+/g," ") + "</div>";}},
                 { title: "Product Impacted", field: "Product_x0020_Impacted", hozAlign: "left", width: 150, headerFilter: "input", formatter: function(cell, formatterParams, onRendered){var decodedString = decodeURIComponent(cell.getValue()); return "<div style=\"overflow-x:auto\">" + decodedString.replace(/\+/g," ") + "</div>";}},
                 { title: "Communication", field: "Communication_x0020_Link", hozAlign: "left", width: 150, formatter: function(cell, formatterParams, onRendered){var decodedString = decodeURIComponent(cell.getValue()); return "<div style=\"overflow-x:auto\">" + decodedString.replace(/\+/g," ") + "</div>";}},
-                { title: "Issue Details", field: "Description", hozAlign: "left", width: 150, formatter: function(cell, formatterParams, onRendered){var decodedString = decodeURIComponent(cell.getValue()); return "<div style=\"overflow-x:auto\">" + decodedString.replace(/\+/g," ") + "</div>";}},
+                { title: "Issue Details", field: "Description", hozAlign: "left", width: 150, formatter: function(cell, formatterParams, onRendered){var decodedString = decodeURIComponent(cell.getValue()); return "<div style=\"overflow-x:auto;width=80%;\">" + decodedString.replace(/\+/g," ") + "</div>";}},
                 { title: "Issue Type", field: "Issue_x0020_Type", hozAlign: "left", width: 170, headerFilter: "input", formatter: function(cell, formatterParams, onRendered){var decodedString = decodeURIComponent(cell.getValue()); return "<div style=\"overflow-x:auto\">" + decodedString.replace(/\+/g," ") + "</div>";}},
                 { title: "Sourcing Option", field: "Sourcing_x0020_Option", hozAlign: "left", width: 150, headerFilter: "input", formatter: function(cell, formatterParams, onRendered){var decodedString = decodeURIComponent(cell.getValue()); return "<div style=\"overflow-x:auto\">" + decodedString.replace(/\+/g," ") + "</div>";}},
-                { title: "Resources", field: "Resources", hozAlign: "left", width: 150, headerFilter: "input", formatter: function(cell, formatterParams, onRendered){var decodedString = decodeURIComponent(cell.getValue()); return "<div style=\"overflow-x:auto\">" + decodedString.replace(/\+/g," ") + "</div>";}},
-                { title: "Cross Reference", field: "Cross_x0020_Reference_x0020_Prod", hozAlign: "left", width: 150, formatter: function(cell, formatterParams, onRendered){var decodedString = decodeURIComponent(cell.getValue()); return "<div style=\"overflow-x:auto\">" + decodedString.replace(/\+/g," ") + "</div>";}}
+                { title: "Resources", field: "Resources", hozAlign: "left", width: 150, headerFilter: "input", formatter: function(cell, formatterParams, onRendered){var decodedString = decodeURIComponent(cell.getValue()); return "<div style=\"overflow-x:auto\">" + decodedString.replace(/\+/g," ").replace("/sites/HTPS-healthtrustsupplychaindisruption/Shared%20Documents","").replace("/&#58;x&#58;/r","") + "</div>";}},
+                { title: "Cross Reference", field: "Cross_x0020_Reference_x0020_Prod", hozAlign: "left", width: 150, formatter: function(cell, formatterParams, onRendered){var decodedString = decodeURIComponent(cell.getValue()); return "<div style=\"overflow-x:auto\">" + decodedString.replace(/\+/g," ") + "</div>";}},
+                { title: "Recommendation", field: "HT_x0020_Recommendation", hozAlign: "left", width: 150, formatter: function(cell, formatterParams, onRendered){var decodedString = decodeURIComponent(cell.getValue()); return "<div style=\"overflow-x:auto\">" + decodedString.replace(/\+/g," ") + "</div>";}}
             ],
-            footerElement: "<div style=\"white-space:pre-wrap;\"><b>Note:</b> This resource is for informational purposes only and is not intended to replace individual clinical decision-making, which is the sole and independent responsibility of the practitioner and institution. Product information is vetted and updated as it is received by suppliers to promote knowledge sharing within our membership. HealthTrust expressly disclaims any liability for treatment decisions.<br /><br />Please direct any questions or comments to <a href=\"mailto: clinical.services@healthtrustpg.com\">clinical.services@healthtrustpg.com</a>, your account manager, or your supplier representative. <br /><br />If you would like to submit an issue or an update to an issue, please feel free to submit it via the <a href=\"https://huddle.healthtrustpg.com/page/new-welcome\" target=\"_blank\">HealthTrust Huddle Community</a>.<br /><br /><p>&copy; 2022 HealthTrust. All Rights Reserved.</p></div>"
+            footerElement: "<div style=\"white-space:pre-wrap;\"><b>Note:</b> This resource is for informational purposes only and is not intended to replace individual clinical decision-making, which is the sole and independent responsibility of the practitioner and institution. Product information is vetted and updated as it is received by suppliers to promote knowledge sharing within our membership. HealthTrust expressly disclaims any liability for treatment decisions.<br /><br />Please direct any questions or comments to <a href=\"mailto: clinical.services@healthtrustpg.com\">clinical.services@healthtrustpg.com</a>, your account manager, or your supplier representative. <br /><br />If you would like to submit an issue or an update to an issue, please feel free to submit it via the <a href=\"https://huddle.healthtrustpg.com/page/new-welcome\" target=\"_blank\">HealthTrust Huddle Community</a> and click on the following icon:<br /><img src=\"./lib/ReportIssueIcon.jpg\" width=\"100\" height=\"100\" /><br /><br /><p>&copy; 2022 HealthTrust. All Rights Reserved.</p></div>"
         });
 
         tableIssueTracker.on("dataProcessed", function () {
@@ -150,14 +151,15 @@
                 { title: "Reported", field: "DateReported", hozAlign: "left", width: 50 },
                 { title: "Category", field: "Category", hozAlign: "left", width: 60 },
                 { title: "Contract", field: "Contract_x0020_No", hozAlign: "left", width: 45 },
-                { title: "Supplier", field: "Supplier", hozAlign: "left", width: 90 },
-                { title: "Product Impacted", field: "Product_x0020_Impacted", hozAlign: "left", width: 90 },
-                { title: "Communication", field: "Communication_x0020_Link", hozAlign: "left", width: 90 },
-                { title: "Issue Details", field: "Description", hozAlign: "left", width: 90 },
-                { title: "Issue Type", field: "Issue_x0020_Type", hozAlign: "left", width: 90 },
-                { title: "Sourcing Option", field: "Sourcing_x0020_Option", hozAlign: "left", width: 90 },
-                { title: "Resources", field: "Resources", hozAlign: "left", width: 75 },
-                { title: "Cross Reference", field: "Cross_x0020_Reference_x0020_Prod", hozAlign: "left", width: 75 }
+                { title: "Supplier", field: "Supplier", hozAlign: "left", width: 70 },
+                { title: "Product Impacted", field: "Product_x0020_Impacted", hozAlign: "left", width: 70 },
+                { title: "Communication", field: "Communication_x0020_Link", hozAlign: "left", width: 70 },
+                { title: "Issue Details", field: "Description", hozAlign: "left", width: 70 },
+                { title: "Issue Type", field: "Issue_x0020_Type", hozAlign: "left", width: 70 },
+                { title: "Sourcing Option", field: "Sourcing_x0020_Option", hozAlign: "left", width: 70 },
+                { title: "Resources", field: "Resources", hozAlign: "left", width: 70 },
+                { title: "Cross Reference", field: "Cross_x0020_Reference_x0020_Prod", hozAlign: "left", width: 70 },
+                { title: "Recommendation", field: "HT_x0020_Recommendation", hozAlign: "left", width: 70 }
             ]
         });
 
@@ -180,25 +182,32 @@
                         halign: "center",
                         textColor: 000
                     },
-                    margin: {top: 40, bottom: 40, left: 7, right: 7},
+                    margin: {top: 40, bottom: 20, left: 10, right: 10},
                     styles: {
                         fillColor: [255, 255, 255],
                         overflow: 'linebreak', 
                         cellWidth: 'wrap'
                     },
+                    jsPDF:{
+                        orientation: "landscape",
+                        unit: "in",
+                        format: [8.5, 14]
+                    },
                     columnStyles: {
-                        0: {cellWidth: 40},
-                        1: {cellWidth: 50},
-                        2: {cellWidth: 50},
+                        0: {cellWidth: 50},
+                        1: {cellWidth: 40},
+                        2: {cellWidth: 40},
                         3: {cellWidth: 60},
                         4: {cellWidth: 45},
-                        5: {cellWidth: 90},
-                        6: {cellWidth: 90},
-                        7: {cellWidth: 90},
-                        8: {cellWidth: 90},
-                        0: {cellWidth: 90},
-                        10: {cellWidth: 90},
-                        11: {cellWidth: 90}
+                        5: {cellWidth: 60},
+                        6: {cellWidth: 60},
+                        7: {cellWidth: 60},
+                        8: {cellWidth: 80},
+                        9: {cellWidth: 60},
+                        10: {cellWidth: 60},
+                        11: {cellWidth: 60},
+                        12: {cellWidth: 60},
+                        13: {cellWidth: 80}
                     }
                 }
             });
@@ -217,7 +226,7 @@
             background: #1B365D !important;
             background-color: #1B365D !important;
             color: #fff !important;
-            border-bottom: 6px solid #DE6924 !important;
+            border-bottom: 6px solid #1B365D !important;
         }
 
         #issue-tracker-table .tabulator-header .tabulator-col {
