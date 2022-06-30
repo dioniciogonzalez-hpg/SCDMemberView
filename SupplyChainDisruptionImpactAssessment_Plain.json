@@ -2510,5 +2510,21 @@
         "Resources":  "",
         "Cross_x0020_Reference_x0020_Prod":  "Electrosurgery - Smoke Evacuation Equipment and Supplies",
         "HT_x0020_Recommendation":  ""
+    },
+    {
+        "Priority":  "Medium",
+        "Modified":  "2022-06-29",
+        "DateReported":  "2022-06-29",
+        "Category":  "2022-06-29",
+        "Contract_x0020_No":  "?7168",
+        "Supplier":  "Teleflex",
+        "Product_x0020_Impacted":  "?OnControl",
+        "Communication_x0020_Link":  "?No official letter communicated. Information received via the supplier. ",
+        "Description":  "Teleflex has reported that there have been brief delays on the OnContol trays over the past few months. They have inventory coming in weekly but orders have outpaced allocations for some SKU?s. They are filling orders first in/ first out. There are subs available and the local rep will assist. ",
+        "Issue_x0020_Type":  "Not Specified - Global Supply Challenges",
+        "Sourcing_x0020_Option":  "Clinical Alternatives",
+        "Resources":  "",
+        "Cross_x0020_Reference_x0020_Prod":  "?Powered Bone Marrow Biopsy",
+        "HT_x0020_Recommendation":  "?Please work with your local Teleflex representative. "
     }
 ]

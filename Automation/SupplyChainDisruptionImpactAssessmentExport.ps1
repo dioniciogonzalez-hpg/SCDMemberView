@@ -57,7 +57,8 @@ $ListItems | ForEach-Object {
         {
             'Contract_x0020_No' {
                 $ContractID = $ItemPlainValue
-                $NewValue = $ItemValue
+                $ContractURL = 'href="https://members.healthtrustpg.com/contracts/' + $ContractID + '"'
+                $NewValue = $ItemValue -replace 'href%3d%22https%26%2358%3b%2f%2fmembers.healthtrustpg.com%2fcatscan%2fCommon%2fDialogPages%2fDialogProxy.aspx%3fpath%3d%2fcatscan%2fsummarysheet%2freport.aspx%3fcontractnumber%3d', $ContractURL
                 $NewPlainValue = $ItemPlainValue
             }
             'Category' {
@@ -65,12 +66,12 @@ $ListItems | ForEach-Object {
             }
             'Resources' {
                 $ContractURL = 'href="https://members.healthtrustpg.com/contracts/' + $ContractID + '"'
-                $NewValue = $ItemValue -replace 'href=\"https\u0026#58;//members.healthtrustpg.com/-/media/[A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9]\"', $ContractURL
+                $NewValue = $ItemValue -replace 'href%3d%22https%26%2358%3b%2f%2fmembers.healthtrustpg.com%2f-%2fmedia%2f[A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9]%22', $ContractURL
                 $NewPlainValue = $ItemPlainValue
             }
             'Cross_x0020_Reference_x0020_Prod' {
                 $ContractURL = 'href="https://members.healthtrustpg.com/contracts/' + $ContractID + '"'
-                $NewValue = $ItemValue -replace 'href=\"https\u0026#58;//members.healthtrustpg.com/-/media/[A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9]\"', $ContractURL
+                $NewValue = $ItemValue -replace 'href%3d%22https%26%2358%3b%2f%2fmembers.healthtrustpg.com%2f-%2fmedia%2f[A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9]%22', $ContractURL
                 $NewPlainValue = $ItemPlainValue
             }
             'DateReported' {
